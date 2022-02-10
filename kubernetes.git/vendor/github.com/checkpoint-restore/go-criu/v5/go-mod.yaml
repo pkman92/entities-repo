@@ -1,0 +1,88 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e543c5a63432de27f5190b20fc6f82c52cc2a945
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 92fd11573f33f468d8c83ab33402c570bc6fc404
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 510af1c1a3318264682def15b92c9b07eeed0e86
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20210124154548-22da62e12c0c
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcf2830505b57fc263db2eebc3f23fd185a01719
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+    pkg/version: v0.0.0-20191204190536-9bdfabe68543
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cfd1dda7dcc3b723584d390a14e25600a77031af
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v1.23.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: efb698ed5ca1f575e1845c10981e45aceb9d287c
+  description: ""
+  annotations:
+    pkg/source: github.com/checkpoint-restore/go-criu/v5
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/e543c5a63432de27f5190b20fc6f82c52cc2a945
+  - Component:default/92fd11573f33f468d8c83ab33402c570bc6fc404
+  - Component:default/510af1c1a3318264682def15b92c9b07eeed0e86
+  - Component:default/dcf2830505b57fc263db2eebc3f23fd185a01719
+  - Component:default/cfd1dda7dcc3b723584d390a14e25600a77031af

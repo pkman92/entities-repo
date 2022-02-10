@@ -1,0 +1,358 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c1cc6c9171356094177fa63133d80205ac7b72aa
+  description: ""
+  annotations:
+    pkg/source: github.com/benbjohnson/clock
+    pkg/version: v1.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2e2f9b8931f1d641c38ff7741053cad54b83f636
+  description: ""
+  annotations:
+    pkg/source: github.com/kr/pretty
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dce76e9f41832f2d643f4765c4a0d0460decb34d
+  description: ""
+  annotations:
+    pkg/source: github.com/kr/pty
+    pkg/version: v1.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ede2e839713ba7b05c06405b99252ee1291609a8
+  description: ""
+  annotations:
+    pkg/source: github.com/kr/text
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9849b86f0de6769af3741b5e3572e0affc2a5a4d
+  description: ""
+  annotations:
+    pkg/source: github.com/pkg/errors
+    pkg/version: v0.8.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/objx
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a1aaeeec968b82e8beeeb67c1236709bbcefce9d
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/testify
+    pkg/version: v1.7.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7dd3eb0bf4e62c67f833e313136d5823342f33c4
+  description: ""
+  annotations:
+    pkg/source: go.uber.org/atomic
+    pkg/version: v1.7.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e70ea1646bcdf0d6f26e4496e01ded5483f2488e
+  description: ""
+  annotations:
+    pkg/source: go.uber.org/goleak
+    pkg/version: v1.1.10
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c57e0a7d4e93fa69e9276b32f66327ee3c483380
+  description: ""
+  annotations:
+    pkg/source: go.uber.org/multierr
+    pkg/version: v1.6.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 04207c6e00b764b9ad613b5f01353d54eb610500
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/crypto
+    pkg/version: v0.0.0-20190308221718-c2843e01d9a2
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcaaea047623dafe45dfbe20dd5ebc3d73d92654
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/lint
+    pkg/version: v0.0.0-20190930215403-16217165b5de
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 063c947e05dd15cbbae757f944bbac9793647f0c
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20190620200207-3b0461eec859
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 409be67e071147aa7b3c7f68ddeb342874bfe9e2
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sync
+    pkg/version: v0.0.0-20190423024810-112230192c58
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cb39d1191ab776fc566cb96c5851d74dd6cdc4a9
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20190215142949-d0b11bdaac8a
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d09b9a35615e8c3de74e5e7d8ad38c455198f090
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/tools
+    pkg/version: v0.0.0-20191108193012-7d206e10da11
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 22e74006578c875957b2502e667bf9f86b000f39
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+    pkg/version: v0.0.0-20190717185122-a985d3407aa7
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 72406d91c1198be44b39d72e83cfae8569df93e2
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v1.0.0-20180628173108-788fd7840127
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a1378cd3acf651fc3b254e8287516a64af90279f
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v2
+    pkg/version: v2.2.8
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 3d28fd7447d31638a595a2e2e18a54f4eff490fe
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v3
+    pkg/version: v3.0.0-20210107192922-496545a6307b
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c5b20fd73513bbc65ab1d58102422eba12ed8ed2
+  description: ""
+  annotations:
+    pkg/source: go.uber.org/zap
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/c1cc6c9171356094177fa63133d80205ac7b72aa
+  - Component:default/a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  - Component:default/2e2f9b8931f1d641c38ff7741053cad54b83f636
+  - Component:default/dce76e9f41832f2d643f4765c4a0d0460decb34d
+  - Component:default/ede2e839713ba7b05c06405b99252ee1291609a8
+  - Component:default/9849b86f0de6769af3741b5e3572e0affc2a5a4d
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  - Component:default/a1aaeeec968b82e8beeeb67c1236709bbcefce9d
+  - Component:default/7dd3eb0bf4e62c67f833e313136d5823342f33c4
+  - Component:default/e70ea1646bcdf0d6f26e4496e01ded5483f2488e
+  - Component:default/c57e0a7d4e93fa69e9276b32f66327ee3c483380
+  - Component:default/04207c6e00b764b9ad613b5f01353d54eb610500
+  - Component:default/dcaaea047623dafe45dfbe20dd5ebc3d73d92654
+  - Component:default/063c947e05dd15cbbae757f944bbac9793647f0c
+  - Component:default/409be67e071147aa7b3c7f68ddeb342874bfe9e2
+  - Component:default/cb39d1191ab776fc566cb96c5851d74dd6cdc4a9
+  - Component:default/9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  - Component:default/d09b9a35615e8c3de74e5e7d8ad38c455198f090
+  - Component:default/22e74006578c875957b2502e667bf9f86b000f39
+  - Component:default/72406d91c1198be44b39d72e83cfae8569df93e2
+  - Component:default/a1378cd3acf651fc3b254e8287516a64af90279f
+  - Component:default/3d28fd7447d31638a595a2e2e18a54f4eff490fe

@@ -1,0 +1,88 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 506a05ddaa7445fcd4fcd58b3094f85e6ce91067
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/crypto
+    pkg/version: v0.0.0-20200622213623-75b288015ac9
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e7add4330849c11e2d730e7f3db5afc14d472ac9
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20201202161906-c7110b5ffcbb
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e8b455187cc4ee6b4dca4fe83814f5e5ddfe9d7c
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200930185726-fdedc70b468f
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9116304454a1ddeb839cf90178f53fa28ed230d3
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 214b645012b3753f4526d44f0987a59ac567dcf1
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/tools
+    pkg/version: v0.0.0-20180917221912-90fa682c2a6e
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ddd89fead34e04aa88a810676c99d408ef913cbe
+  description: ""
+  annotations:
+    pkg/source: github.com/soheilhy/cmux
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/506a05ddaa7445fcd4fcd58b3094f85e6ce91067
+  - Component:default/e7add4330849c11e2d730e7f3db5afc14d472ac9
+  - Component:default/e8b455187cc4ee6b4dca4fe83814f5e5ddfe9d7c
+  - Component:default/9116304454a1ddeb839cf90178f53fa28ed230d3
+  - Component:default/214b645012b3753f4526d44f0987a59ac567dcf1

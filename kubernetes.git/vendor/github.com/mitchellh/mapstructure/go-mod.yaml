@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cf4c0ffd369510fe1d86e2641cb0a7ff654da94a
+  description: ""
+  annotations:
+    pkg/source: github.com/mitchellh/mapstructure
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

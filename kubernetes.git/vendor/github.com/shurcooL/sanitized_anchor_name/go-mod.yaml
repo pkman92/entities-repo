@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9d964988fb069824a317738986479a0254e4cbe4
+  description: ""
+  annotations:
+    pkg/source: github.com/shurcooL/sanitized_anchor_name
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

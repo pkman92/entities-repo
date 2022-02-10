@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 90305460bb1ed7d5e33b94c3246e17c0aa1db4a3
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200909081042-eff7692f9009
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c4e0fc351e758e036d4e5bb9686b6b635fad857e
+  description: ""
+  annotations:
+    pkg/source: github.com/moby/sys/mountinfo
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/90305460bb1ed7d5e33b94c3246e17c0aa1db4a3

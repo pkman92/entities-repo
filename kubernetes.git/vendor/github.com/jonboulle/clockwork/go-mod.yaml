@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0ddec7666bac845fb621fe6d0bc07555a323bf1e
+  description: ""
+  annotations:
+    pkg/source: github.com/jonboulle/clockwork
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

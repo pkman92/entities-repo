@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eabf4479c7c9162074dab768826452f5ac1ba4ac
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest
+    pkg/version: v14.2.0+incompatible
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f666a177f5780bc240d965a56d7870ff499773f7
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/logger
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/eabf4479c7c9162074dab768826452f5ac1ba4ac

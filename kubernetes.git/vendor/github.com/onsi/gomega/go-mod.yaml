@@ -1,0 +1,268 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 920c3c6d6a1f91030914b063d820f0e694ba1aa6
+  description: ""
+  annotations:
+    pkg/source: github.com/fsnotify/fsnotify
+    pkg/version: v1.4.7
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 481c43bdf9dbd7654470bcf47584bfab31938123
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 92fd11573f33f468d8c83ab33402c570bc6fc404
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 51c08126e288a208053bc0ea47fa4155d0b98e92
+  description: ""
+  annotations:
+    pkg/source: github.com/hpcloud/tail
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 993485fe43d1fbee838bfc619375666da9f6c085
+  description: ""
+  annotations:
+    pkg/source: github.com/nxadm/tail
+    pkg/version: v1.4.4
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 432bcdb2ff192979c7556c9f3e31d19195228e9e
+  description: ""
+  annotations:
+    pkg/source: github.com/onsi/ginkgo
+    pkg/version: v1.12.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 04207c6e00b764b9ad613b5f01353d54eb610500
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/crypto
+    pkg/version: v0.0.0-20190308221718-c2843e01d9a2
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b52193204d2c41eb47040b64998f0026fdefd7ac
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20200520004742-59133d7f0dd7
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5602db2ea2ebcacc55f87cf4b9f679a30116fd67
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sync
+    pkg/version: v0.0.0-20180314180146-1d60e4601c6f
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c0625b288559368638ebdb9cbdd8ed4f645ee811
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200323222414-85ca7c5b95cd
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcf2830505b57fc263db2eebc3f23fd185a01719
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+    pkg/version: v0.0.0-20191204190536-9bdfabe68543
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cfd1dda7dcc3b723584d390a14e25600a77031af
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v1.23.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e028427f92590f74d449f768ce57b2f6be23e4ae
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v0.0.0-20161208181325-20d25e280405
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 952e864d6a75a51c30b2d1be5075b6f7fb703054
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/fsnotify.v1
+    pkg/version: v1.4.7
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 522dd1e2134bd13bdae86f96d3a7677683fcc238
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/tomb.v1
+    pkg/version: v1.0.0-20141024135613-dd632973f1e7
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 23fa4313498c1beeb6f0bac65118d7b023dd0395
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v2
+    pkg/version: v2.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4433fa41b4a9cca24909a0c925b4014ae6b341b8
+  description: ""
+  annotations:
+    pkg/source: github.com/onsi/gomega
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/920c3c6d6a1f91030914b063d820f0e694ba1aa6
+  - Component:default/481c43bdf9dbd7654470bcf47584bfab31938123
+  - Component:default/92fd11573f33f468d8c83ab33402c570bc6fc404
+  - Component:default/51c08126e288a208053bc0ea47fa4155d0b98e92
+  - Component:default/993485fe43d1fbee838bfc619375666da9f6c085
+  - Component:default/432bcdb2ff192979c7556c9f3e31d19195228e9e
+  - Component:default/04207c6e00b764b9ad613b5f01353d54eb610500
+  - Component:default/b52193204d2c41eb47040b64998f0026fdefd7ac
+  - Component:default/5602db2ea2ebcacc55f87cf4b9f679a30116fd67
+  - Component:default/c0625b288559368638ebdb9cbdd8ed4f645ee811
+  - Component:default/9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  - Component:default/dcf2830505b57fc263db2eebc3f23fd185a01719
+  - Component:default/cfd1dda7dcc3b723584d390a14e25600a77031af
+  - Component:default/e028427f92590f74d449f768ce57b2f6be23e4ae
+  - Component:default/952e864d6a75a51c30b2d1be5075b6f7fb703054
+  - Component:default/522dd1e2134bd13bdae86f96d3a7677683fcc238
+  - Component:default/23fa4313498c1beeb6f0bac65118d7b023dd0395

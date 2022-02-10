@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 593d4289641dcbd3e4d44fc7a5be955198f7f2cd
+  description: ""
+  annotations:
+    pkg/source: github.com/opencontainers/go-digest
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

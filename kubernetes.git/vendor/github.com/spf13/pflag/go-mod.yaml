@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4838bfb5c2e3543852bb19d47022bca35c9c2a93
+  description: ""
+  annotations:
+    pkg/source: github.com/spf13/pflag
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

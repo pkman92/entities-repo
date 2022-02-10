@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 901bc3258d0f8d46c757bac02c6b193724104e47
+  description: ""
+  annotations:
+    pkg/source: github.com/cespare/xxhash/v2
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

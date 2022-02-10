@@ -1,0 +1,223 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d996afb056da8a80057df7b022889a8c30633833
+  description: ""
+  annotations:
+    pkg/source: github.com/felixge/httpsnoop
+    pkg/version: v1.0.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 79a818d9ee43d68c2ca1928e6d8e8d56d19afcc5
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.5.5
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/objx
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a1aaeeec968b82e8beeeb67c1236709bbcefce9d
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/testify
+    pkg/version: v1.7.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 6ac61c7aa30ea4e3990b94559c315b1e7d7fd6c6
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/contrib
+    pkg/version: v0.20.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1acdc5b4f9aa73b1b08ae5836f47c154703af730
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/otel
+    pkg/version: v0.20.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4bd0aa9f63cd996cc10dd172fc1aac18e95385c1
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/otel/metric
+    pkg/version: v0.20.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: af2ad11c2af39798f8cd1ac092a608b588364b29
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/otel/oteltest
+    pkg/version: v0.20.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 94b20531782dfce4c89cc10a7cbae12c9f3f7364
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/otel/trace
+    pkg/version: v0.20.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcf2830505b57fc263db2eebc3f23fd185a01719
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+    pkg/version: v0.0.0-20191204190536-9bdfabe68543
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e028427f92590f74d449f768ce57b2f6be23e4ae
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v0.0.0-20161208181325-20d25e280405
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 35965039e84bffe9e6e4c8024ebd81770c5b694b
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v3
+    pkg/version: v3.0.0-20200313102051-9f266ea9e77c
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ce13a3af2d4731da0217895783968fbc38511796
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  - Component:default/d996afb056da8a80057df7b022889a8c30633833
+  - Component:default/79a818d9ee43d68c2ca1928e6d8e8d56d19afcc5
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  - Component:default/a1aaeeec968b82e8beeeb67c1236709bbcefce9d
+  - Component:default/6ac61c7aa30ea4e3990b94559c315b1e7d7fd6c6
+  - Component:default/1acdc5b4f9aa73b1b08ae5836f47c154703af730
+  - Component:default/4bd0aa9f63cd996cc10dd172fc1aac18e95385c1
+  - Component:default/af2ad11c2af39798f8cd1ac092a608b588364b29
+  - Component:default/94b20531782dfce4c89cc10a7cbae12c9f3f7364
+  - Component:default/dcf2830505b57fc263db2eebc3f23fd185a01719
+  - Component:default/e028427f92590f74d449f768ce57b2f6be23e4ae
+  - Component:default/35965039e84bffe9e6e4c8024ebd81770c5b694b

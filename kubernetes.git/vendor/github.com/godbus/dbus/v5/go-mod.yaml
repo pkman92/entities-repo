@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 425902849b2a66b2b07ae16827ed3d5d34301666
+  description: ""
+  annotations:
+    pkg/source: github.com/godbus/dbus/v5
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

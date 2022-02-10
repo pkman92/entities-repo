@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ae57b30d8fc2bcab4dfc76e8eb4242e45de25d3f
+  description: ""
+  annotations:
+    pkg/source: github.com/robfig/cron/v3
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

@@ -1,0 +1,103 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 64d88a3d23cb933942418ccf12f7e9677e5d5388
+  description: ""
+  annotations:
+    pkg/source: github.com/jmespath/go-jmespath/internal/testify
+    pkg/version: v1.5.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/objx
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e028427f92590f74d449f768ce57b2f6be23e4ae
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v0.0.0-20161208181325-20d25e280405
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a1378cd3acf651fc3b254e8287516a64af90279f
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v2
+    pkg/version: v2.2.8
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 81c3df5531755090c1c6c093644eeb96fc580ed0
+  description: ""
+  annotations:
+    pkg/source: github.com/jmespath/go-jmespath
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  - Component:default/64d88a3d23cb933942418ccf12f7e9677e5d5388
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  - Component:default/e028427f92590f74d449f768ce57b2f6be23e4ae
+  - Component:default/a1378cd3acf651fc3b254e8287516a64af90279f

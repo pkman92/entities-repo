@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1d5a3b9ce242ab4e75d7e4d68fc99c43a44eba0e
+  description: ""
+  annotations:
+    pkg/source: github.com/google/btree
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

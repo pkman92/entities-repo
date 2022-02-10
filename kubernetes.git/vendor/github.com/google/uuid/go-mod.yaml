@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ae84d8c1af86dd535a3fadb49d021e520cc5d978
+  description: ""
+  annotations:
+    pkg/source: github.com/google/uuid
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

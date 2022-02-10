@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 716d8adff64b1a68527a3045b472cb853dab6d61
+  description: ""
+  annotations:
+    pkg/source: github.com/gorilla/websocket
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

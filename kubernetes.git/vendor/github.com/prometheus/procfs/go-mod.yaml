@@ -1,0 +1,73 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e565c2090ff207cde85f9f876f463e2409a5e25a
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.5.4
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 163f68def6e7500b1c20b453fb7037725324b096
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sync
+    pkg/version: v0.0.0-20201207232520-09787c993a3a
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 510af1c1a3318264682def15b92c9b07eeed0e86
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20210124154548-22da62e12c0c
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcf2830505b57fc263db2eebc3f23fd185a01719
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+    pkg/version: v0.0.0-20191204190536-9bdfabe68543
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5039909f8c5a76f2bb84eefa894fe8d8054c0584
+  description: ""
+  annotations:
+    pkg/source: github.com/prometheus/procfs
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/e565c2090ff207cde85f9f876f463e2409a5e25a
+  - Component:default/163f68def6e7500b1c20b453fb7037725324b096
+  - Component:default/510af1c1a3318264682def15b92c9b07eeed0e86
+  - Component:default/dcf2830505b57fc263db2eebc3f23fd185a01719

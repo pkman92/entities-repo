@@ -1,0 +1,163 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eabf4479c7c9162074dab768826452f5ac1ba4ac
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest
+    pkg/version: v14.2.0+incompatible
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 24d16fc7235e9e390fe691e7ecce8a4725c22780
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/autorest/date
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 419ef77d505e72ccdda962d066281e4163e4fb11
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/autorest/mocks
+    pkg/version: v0.4.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9723d3d29b6c32b047d4e08c68043b2dca268727
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/logger
+    pkg/version: v0.2.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 13b462aea811622e3ad6aab0e80c8e2215403825
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/tracing
+    pkg/version: v0.6.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2d53764830251412b387dffa11132962f0041f83
+  description: ""
+  annotations:
+    pkg/source: github.com/form3tech-oss/jwt-go
+    pkg/version: v3.2.2+incompatible
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7a4bc8b0d56334e88e208d9c4fd9ac44e97b11bf
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/crypto
+    pkg/version: v0.0.0-20201002170205-7f63de1d35b0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eebbd2384084b59be48257333a083134f9354daf
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20190404232315-eb5bcb51f2a3
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bcba9ea37a65317c85314f14278a8018e9b92efd
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20190412213103-97732733099d
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 253ba24b2605f6e6671405320b705c32f31e6022
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/autorest/adal
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/eabf4479c7c9162074dab768826452f5ac1ba4ac
+  - Component:default/24d16fc7235e9e390fe691e7ecce8a4725c22780
+  - Component:default/419ef77d505e72ccdda962d066281e4163e4fb11
+  - Component:default/9723d3d29b6c32b047d4e08c68043b2dca268727
+  - Component:default/13b462aea811622e3ad6aab0e80c8e2215403825
+  - Component:default/2d53764830251412b387dffa11132962f0041f83
+  - Component:default/7a4bc8b0d56334e88e208d9c4fd9ac44e97b11bf
+  - Component:default/eebbd2384084b59be48257333a083134f9354daf
+  - Component:default/bcba9ea37a65317c85314f14278a8018e9b92efd
+  - Component:default/9736ea3e4b75c084ca9510ddeb757b37b5aba001

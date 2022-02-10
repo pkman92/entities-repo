@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 23a9dd6fe901fadc81bcffcb5f18e8dd07dfc1b6
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200923182605-d9f96fdee20d
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bd93efd35182beb0537acdef223a8521ede5b1b4
+  description: ""
+  annotations:
+    pkg/source: go.etcd.io/bbolt
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/23a9dd6fe901fadc81bcffcb5f18e8dd07dfc1b6

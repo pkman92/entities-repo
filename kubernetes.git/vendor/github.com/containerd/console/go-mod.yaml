@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 95192a2d65a25ffc13880037505ee85ea56b5065
+  description: ""
+  annotations:
+    pkg/source: github.com/pkg/errors
+    pkg/version: v0.9.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 510af1c1a3318264682def15b92c9b07eeed0e86
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20210124154548-22da62e12c0c
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cb2e423d741706eef55740f7b5e27f18392a2abe
+  description: ""
+  annotations:
+    pkg/source: github.com/containerd/console
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/95192a2d65a25ffc13880037505ee85ea56b5065
+  - Component:default/510af1c1a3318264682def15b92c9b07eeed0e86

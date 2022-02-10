@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 51136b0d6686032a22fc71f9ab8f6aa8988d0785
+  description: ""
+  annotations:
+    pkg/source: github.com/fvbommel/sortorder
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

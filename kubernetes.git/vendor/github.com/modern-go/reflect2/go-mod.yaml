@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 189dabdcf0d899f8c96c074f6cc1feac6010d835
+  description: ""
+  annotations:
+    pkg/source: github.com/modern-go/reflect2
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

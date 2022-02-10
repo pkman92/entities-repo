@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7bfbaa9c8dddb1212dbef6f3d0a8fd134b1dfaec
+  description: ""
+  annotations:
+    pkg/source: github.com/felixge/httpsnoop
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 57d6e54cb8c0bdfec2dda972aa0a6429d0317c1a
+  description: ""
+  annotations:
+    pkg/source: github.com/vishvananda/netns
+    pkg/version: v0.0.0-20191106174202-0a2b9b5464df
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 68e3480f468823be1daf0714465e5d3cb0bf8cbf
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20190606203320-7fc4e5ec1444
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 6577ee007b250bc6f52e37c5da9787f46a703570
+  description: ""
+  annotations:
+    pkg/source: github.com/vishvananda/netlink
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/57d6e54cb8c0bdfec2dda972aa0a6429d0317c1a
+  - Component:default/68e3480f468823be1daf0714465e5d3cb0bf8cbf

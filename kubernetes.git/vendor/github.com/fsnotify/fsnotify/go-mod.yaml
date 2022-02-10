@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5e02640869ad5558d8bedea15525a1bab9ffc74b
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20191005200804-aed5e4c7ecf9
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b8b710be3511a8d66a98cf620192bf2b305debfe
+  description: ""
+  annotations:
+    pkg/source: github.com/fsnotify/fsnotify
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/5e02640869ad5558d8bedea15525a1bab9ffc74b

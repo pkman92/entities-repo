@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e4f8ea2f2ec3cb48319f37893c5620348fda9620
+  description: ""
+  annotations:
+    pkg/source: go.opentelemetry.io/contrib
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

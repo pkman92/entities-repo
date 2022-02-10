@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 56a73324c7cb5e5588ff11cb39cda04b40c8508e
+  description: ""
+  annotations:
+    pkg/source: github.com/bits-and-blooms/bitset
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

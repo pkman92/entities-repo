@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 19e2923433028148ca8adb1d19b6a444ccbd3249
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

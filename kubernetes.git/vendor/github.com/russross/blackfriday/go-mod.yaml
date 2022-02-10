@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 24e1d6a548526cd364f94255cd519bf9723f48e6
+  description: ""
+  annotations:
+    pkg/source: github.com/russross/blackfriday
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go

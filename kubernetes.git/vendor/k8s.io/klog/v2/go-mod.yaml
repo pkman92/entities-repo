@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7c63466c35d40684e34520a77e76f35f32412f03
+  description: ""
+  annotations:
+    pkg/source: github.com/go-logr/logr
+    pkg/version: v1.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: go-modules
+  owner: go
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9034fd07845445ee09ac162a98d5f2836ef5699a
+  description: ""
+  annotations:
+    pkg/source: k8s.io/klog/v2
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
+  dependsOn:
+  - Component:default/7c63466c35d40684e34520a77e76f35f32412f03

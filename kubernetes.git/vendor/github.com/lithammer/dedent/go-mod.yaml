@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7a2252bfc702de3448a30069da90a01beadf6989
+  description: ""
+  annotations:
+    pkg/source: github.com/lithammer/dedent
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: go
