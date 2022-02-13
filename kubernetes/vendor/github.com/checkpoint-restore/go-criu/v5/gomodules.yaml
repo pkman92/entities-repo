@@ -1,0 +1,284 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2003afbe447faab5d56f6c2031b5b3095da5a7a3
+  description: ""
+  annotations:
+    pkg/source: github.com/checkpoint-restore/go-criu
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcf2830505b57fc263db2eebc3f23fd185a01719
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/xerrors
+    pkg/version: v0.0.0-20191204190536-9bdfabe68543
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 92fd11573f33f468d8c83ab33402c570bc6fc404
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b37305a6a8238318b153126a82e3cf8227c5f1f9
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.3.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 13602317a4b9e9024bc745f22b8c0c8e9b0b6e5b
+  description: ""
+  annotations:
+    pkg/source: github.com/google/go-cmp
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e0af527e87db93b69f9e12d86ba494cfe50dfe6a
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v0.0.0-20200109180630-ec00e32a8dfd
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: faed5c1ad940e7387d68503bb2da1dddf9897d41
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.0-rc.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 90945ed2ae39895fe790eeab968fc1366987f33a
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v0.0.0-20200221191635-4d8936d0db64
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b9b87a4471904b2d1864b4aec472eecff26ef33b
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.0-rc.1.0.20200221234624-67d41d38c208
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 60a082ceb14a30fbb9c07ef2c15a533eebadc2f9
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v0.0.0-20200228230310-ab0ca4ff8a60
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0d0fb8b0108bac17f2d041768b2cac6e58ea9b83
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.0-rc.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8f02b9b9efaf1b83dd1b91d6c0db0814fa3e00fc
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v1.20.1-0.20200309200217-e05f789c0967
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4e1f5f8212a572d9555070334a0e2aecd47e55a0
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.0-rc.4.0.20200313231945-b860323f09d0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f81cea43af35512c0d3b31c7d09566854634d3f0
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v1.21.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: df6ae8af9accfb759df7255f0d1440db401babbc
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cfd1dda7dcc3b723584d390a14e25600a77031af
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/protobuf
+    pkg/version: v1.23.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e543c5a63432de27f5190b20fc6f82c52cc2a945
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.4.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 510af1c1a3318264682def15b92c9b07eeed0e86
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20210124154548-22da62e12c0c
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7f26fc8a3e4e4d70ef7aef52cde069a2e52cf350
+  description: ""
+  annotations:
+    pkg/source: vendor/github.com/checkpoint-restore/go-criu/v5/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/2003afbe447faab5d56f6c2031b5b3095da5a7a3
+  - Component:default/dcf2830505b57fc263db2eebc3f23fd185a01719
+  - Component:default/92fd11573f33f468d8c83ab33402c570bc6fc404
+  - Component:default/b37305a6a8238318b153126a82e3cf8227c5f1f9
+  - Component:default/13602317a4b9e9024bc745f22b8c0c8e9b0b6e5b
+  - Component:default/e0af527e87db93b69f9e12d86ba494cfe50dfe6a
+  - Component:default/faed5c1ad940e7387d68503bb2da1dddf9897d41
+  - Component:default/90945ed2ae39895fe790eeab968fc1366987f33a
+  - Component:default/b9b87a4471904b2d1864b4aec472eecff26ef33b
+  - Component:default/60a082ceb14a30fbb9c07ef2c15a533eebadc2f9
+  - Component:default/0d0fb8b0108bac17f2d041768b2cac6e58ea9b83
+  - Component:default/8f02b9b9efaf1b83dd1b91d6c0db0814fa3e00fc
+  - Component:default/4e1f5f8212a572d9555070334a0e2aecd47e55a0
+  - Component:default/f81cea43af35512c0d3b31c7d09566854634d3f0
+  - Component:default/df6ae8af9accfb759df7255f0d1440db401babbc
+  - Component:default/cfd1dda7dcc3b723584d390a14e25600a77031af
+  - Component:default/e543c5a63432de27f5190b20fc6f82c52cc2a945
+  - Component:default/510af1c1a3318264682def15b92c9b07eeed0e86

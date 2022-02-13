@@ -1,0 +1,179 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f7474ab3e734e148c8913477c1f9d3f739f66e35
+  description: ""
+  annotations:
+    pkg/source: github.com/soheilhy/cmux
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cb39d1191ab776fc566cb96c5851d74dd6cdc4a9
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20190215142949-d0b11bdaac8a
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 04207c6e00b764b9ad613b5f01353d54eb610500
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/crypto
+    pkg/version: v0.0.0-20190308221718-c2843e01d9a2
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eebbd2384084b59be48257333a083134f9354daf
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20190404232315-eb5bcb51f2a3
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bcba9ea37a65317c85314f14278a8018e9b92efd
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20190412213103-97732733099d
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 506a05ddaa7445fcd4fcd58b3094f85e6ce91067
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/crypto
+    pkg/version: v0.0.0-20200622213623-75b288015ac9
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e8b455187cc4ee6b4dca4fe83814f5e5ddfe9d7c
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200930185726-fdedc70b468f
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 214b645012b3753f4526d44f0987a59ac567dcf1
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/tools
+    pkg/version: v0.0.0-20180917221912-90fa682c2a6e
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9116304454a1ddeb839cf90178f53fa28ed230d3
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e7add4330849c11e2d730e7f3db5afc14d472ac9
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20201202161906-c7110b5ffcbb
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f84e4868b3984c9886b0d046e43ea92a4c40b0bf
+  description: ""
+  annotations:
+    pkg/source: vendor/github.com/soheilhy/cmux/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":5,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/f7474ab3e734e148c8913477c1f9d3f739f66e35
+  - Component:default/cb39d1191ab776fc566cb96c5851d74dd6cdc4a9
+  - Component:default/04207c6e00b764b9ad613b5f01353d54eb610500
+  - Component:default/9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  - Component:default/eebbd2384084b59be48257333a083134f9354daf
+  - Component:default/bcba9ea37a65317c85314f14278a8018e9b92efd
+  - Component:default/506a05ddaa7445fcd4fcd58b3094f85e6ce91067
+  - Component:default/e8b455187cc4ee6b4dca4fe83814f5e5ddfe9d7c
+  - Component:default/214b645012b3753f4526d44f0987a59ac567dcf1
+  - Component:default/9116304454a1ddeb839cf90178f53fa28ed230d3
+  - Component:default/e7add4330849c11e2d730e7f3db5afc14d472ac9

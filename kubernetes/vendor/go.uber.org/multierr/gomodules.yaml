@@ -1,0 +1,119 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4333f314397713f2e8c838be479dc1b96a022451
+  description: ""
+  annotations:
+    pkg/source: go.uber.org/multierr
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/objx
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 11580f2a6af4647ddf2c40cf18578f145ad5f25f
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/testify
+    pkg/version: v1.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7dd3eb0bf4e62c67f833e313136d5823342f33c4
+  description: ""
+  annotations:
+    pkg/source: go.uber.org/atomic
+    pkg/version: v1.7.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7a587b30c23da97416552a92758bc12c6b6b22f8
+  description: ""
+  annotations:
+    pkg/source: vendor/go.uber.org/multierr/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/4333f314397713f2e8c838be479dc1b96a022451
+  - Component:default/8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  - Component:default/11580f2a6af4647ddf2c40cf18578f145ad5f25f
+  - Component:default/a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  - Component:default/7dd3eb0bf4e62c67f833e313136d5823342f33c4

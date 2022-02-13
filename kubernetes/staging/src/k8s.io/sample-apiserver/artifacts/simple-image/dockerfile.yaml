@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1627c0de971d0d4a230fc1c539f4b89cae1300da
+  description: ""
+  annotations:
+    pkg/source: fedora
+    pkg/version: latest
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a43268e068367100e0278f34e63c94dd290209cc
+  description: ""
+  annotations:
+    pkg/source: staging/src/k8s.io/sample-apiserver/artifacts/simple-image/Dockerfile
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/1627c0de971d0d4a230fc1c539f4b89cae1300da

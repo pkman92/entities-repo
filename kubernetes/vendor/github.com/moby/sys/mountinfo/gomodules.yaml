@@ -1,0 +1,44 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5b115d60509dc691a9f9a5ef15822985c1bc76f
+  description: ""
+  annotations:
+    pkg/source: github.com/moby/sys/mountinfo
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 90305460bb1ed7d5e33b94c3246e17c0aa1db4a3
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200909081042-eff7692f9009
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4687220f4a90a8d243017b006f5905bc7fa73832
+  description: ""
+  annotations:
+    pkg/source: vendor/github.com/moby/sys/mountinfo/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/a5b115d60509dc691a9f9a5ef15822985c1bc76f
+  - Component:default/90305460bb1ed7d5e33b94c3246e17c0aa1db4a3

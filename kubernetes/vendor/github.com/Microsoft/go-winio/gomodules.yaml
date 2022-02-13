@@ -1,0 +1,134 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9ac441b211b19ed7250391011cdb1d81aecf61f3
+  description: ""
+  annotations:
+    pkg/source: github.com/Microsoft/go-winio
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 95192a2d65a25ffc13880037505ee85ea56b5065
+  description: ""
+  annotations:
+    pkg/source: github.com/pkg/errors
+    pkg/version: v0.9.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eccef9d6664e1edc4ab290424dfd8ccfa5df4114
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/testify
+    pkg/version: v1.2.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 03cc2278720b39f8569a1fade73e900907679618
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20191026070338-33540a1f6037
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1b7a418b38169c92095ed1070cdca76cb86eea76
+  description: ""
+  annotations:
+    pkg/source: github.com/sirupsen/logrus
+    pkg/version: v1.7.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 510af1c1a3318264682def15b92c9b07eeed0e86
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20210124154548-22da62e12c0c
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8feafe2f0e374b1620c51ed4263aab48e8fb2081
+  description: ""
+  annotations:
+    pkg/source: vendor/github.com/Microsoft/go-winio/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/9ac441b211b19ed7250391011cdb1d81aecf61f3
+  - Component:default/95192a2d65a25ffc13880037505ee85ea56b5065
+  - Component:default/a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/eccef9d6664e1edc4ab290424dfd8ccfa5df4114
+  - Component:default/03cc2278720b39f8569a1fade73e900907679618
+  - Component:default/1b7a418b38169c92095ed1070cdca76cb86eea76
+  - Component:default/510af1c1a3318264682def15b92c9b07eeed0e86

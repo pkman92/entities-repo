@@ -1,0 +1,44 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1eaa741055b18964055ac884abffcbc29116d26d
+  description: ""
+  annotations:
+    pkg/source: go.etcd.io/bbolt
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 23a9dd6fe901fadc81bcffcb5f18e8dd07dfc1b6
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200923182605-d9f96fdee20d
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9f8d8e4e243361ad4e25530c433fdc56f16e3ef9
+  description: ""
+  annotations:
+    pkg/source: vendor/go.etcd.io/bbolt/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/1eaa741055b18964055ac884abffcbc29116d26d
+  - Component:default/23a9dd6fe901fadc81bcffcb5f18e8dd07dfc1b6

@@ -1,0 +1,44 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 90e511a146ec8ff6dcc14c0b3c47534ec8f1e469
+  description: ""
+  annotations:
+    pkg/source: github.com/vishvananda/netns
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1f61e32e8ba47cd5d95a92e000bdadada758c5d1
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20200217220822-9197077df867
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a25dace0a6b4d4be1874e5d3308f70002dec8267
+  description: ""
+  annotations:
+    pkg/source: vendor/github.com/vishvananda/netns/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/90e511a146ec8ff6dcc14c0b3c47534ec8f1e469
+  - Component:default/1f61e32e8ba47cd5d95a92e000bdadada758c5d1

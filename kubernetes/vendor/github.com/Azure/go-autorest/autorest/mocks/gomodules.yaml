@@ -1,0 +1,44 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 55b37bacea29f6ab042b8e870b86746f2e16072a
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/autorest/mocks
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eabf4479c7c9162074dab768826452f5ac1ba4ac
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest
+    pkg/version: v14.2.0+incompatible
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 39473addb7b68820cb1d5ddc680918362acf9107
+  description: ""
+  annotations:
+    pkg/source: vendor/github.com/Azure/go-autorest/autorest/mocks/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/55b37bacea29f6ab042b8e870b86746f2e16072a
+  - Component:default/eabf4479c7c9162074dab768826452f5ac1ba4ac
