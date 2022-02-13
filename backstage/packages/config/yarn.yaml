@@ -1,0 +1,59 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9ac476f79f9d37af500a97b63552424efa2b4179
+  description: ""
+  annotations:
+    pkg/source: '@backstage/config'
+    pkg/version: 0.1.13
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4f4f8b2b6aabb90ee254954db7029aee645a933f
+  description: ""
+  annotations:
+    pkg/source: '@backstage/types'
+    pkg/version: ^0.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 40200088452ce6b4810fc67d9e057ca3cdc7d758
+  description: ""
+  annotations:
+    pkg/source: lodash
+    pkg/version: 4.17.21
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7c82800d7403f07dcd8ec42803ae3fc7b14b3df0
+  description: ""
+  annotations:
+    pkg/source: packages/config/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/9ac476f79f9d37af500a97b63552424efa2b4179
+  - Component:default/4f4f8b2b6aabb90ee254954db7029aee645a933f
+  - Component:default/40200088452ce6b4810fc67d9e057ca3cdc7d758

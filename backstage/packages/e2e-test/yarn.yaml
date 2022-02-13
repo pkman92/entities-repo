@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 551311449a403df06f291752e2b68ea6ad1ad9bf
+  description: ""
+  annotations:
+    pkg/source: e2e-test
+    pkg/version: 0.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 65c9ff31a8e7474e37e23ba5866066aa013617ce
+  description: ""
+  annotations:
+    pkg/source: packages/e2e-test/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/551311449a403df06f291752e2b68ea6ad1ad9bf

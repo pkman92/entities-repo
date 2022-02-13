@@ -1,0 +1,224 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4461a7c4ee0d0d547cbb3afa0e3f399937f9b670
+  description: ""
+  annotations:
+    pkg/source: alpine
+    pkg/version: "3.7"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bd027d331cf40d7c57434032bbed26d13ec4fdc0
+  description: ""
+  annotations:
+    pkg/source: alpine-baselayout/alpine-baselayout
+    pkg/version: 3.0.5-r2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d0e9dd3cab7ae7633062aecdaecf0ca289794565
+  description: ""
+  annotations:
+    pkg/source: alpine-keys/alpine-keys
+    pkg/version: 2.1-r1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c8b2dafec489bffbcd84a3960a9332685d417b3d
+  description: ""
+  annotations:
+    pkg/source: apk-tools/apk-tools
+    pkg/version: 2.10.1-r0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d03fa052464e94a08efebc0ce896f494b505a4ed
+  description: ""
+  annotations:
+    pkg/source: busybox/busybox
+    pkg/version: 1.27.2-r11
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bf714964ce0d328c1c14539e5f30d2b5bebe4541
+  description: ""
+  annotations:
+    pkg/source: busybox/ssl_client
+    pkg/version: 1.27.2-r11
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c6104245630005d3f8eb4f566a052694fbc97711
+  description: ""
+  annotations:
+    pkg/source: libc-dev/libc-utils
+    pkg/version: 0.7.1-r0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 723ba393ab935cd73ad62e747923e1cff5b5baf0
+  description: ""
+  annotations:
+    pkg/source: libressl/libressl2.6-libcrypto
+    pkg/version: 2.6.5-r0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 368cd701f5a26bc5100e97ca4a300b585d62c2f6
+  description: ""
+  annotations:
+    pkg/source: libressl/libressl2.6-libssl
+    pkg/version: 2.6.5-r0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 18faa64defb504b898cdbc55814773a8a7027b9e
+  description: ""
+  annotations:
+    pkg/source: libressl/libressl2.6-libtls
+    pkg/version: 2.6.5-r0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 82584e9e6a67859a66f257a768c010f0cfe867e8
+  description: ""
+  annotations:
+    pkg/source: musl/musl
+    pkg/version: 1.1.18-r3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 41fa971f619fe6650eb6d9973b6d1075273f8a5a
+  description: ""
+  annotations:
+    pkg/source: musl/musl-utils
+    pkg/version: 1.1.18-r3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 97eae4639acb124928f31d91fb1632a6e98855d3
+  description: ""
+  annotations:
+    pkg/source: pax-utils/scanelf
+    pkg/version: 1.2.2-r1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1bc697da53d1d5c6b4ccf876555deab845804e09
+  description: ""
+  annotations:
+    pkg/source: zlib/zlib
+    pkg/version: 1.2.11-r1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 61805cb9cbd851c6e9c0295fdbd160ec823330c8
+  description: ""
+  annotations:
+    pkg/source: contrib/docker/cookiecutter-with-jinja2-extensions/Dockerfile
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":1}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/4461a7c4ee0d0d547cbb3afa0e3f399937f9b670
+  - Component:default/bd027d331cf40d7c57434032bbed26d13ec4fdc0
+  - Component:default/d0e9dd3cab7ae7633062aecdaecf0ca289794565
+  - Component:default/c8b2dafec489bffbcd84a3960a9332685d417b3d
+  - Component:default/d03fa052464e94a08efebc0ce896f494b505a4ed
+  - Component:default/bf714964ce0d328c1c14539e5f30d2b5bebe4541
+  - Component:default/c6104245630005d3f8eb4f566a052694fbc97711
+  - Component:default/723ba393ab935cd73ad62e747923e1cff5b5baf0
+  - Component:default/368cd701f5a26bc5100e97ca4a300b585d62c2f6
+  - Component:default/18faa64defb504b898cdbc55814773a8a7027b9e
+  - Component:default/82584e9e6a67859a66f257a768c010f0cfe867e8
+  - Component:default/41fa971f619fe6650eb6d9973b6d1075273f8a5a
+  - Component:default/97eae4639acb124928f31d91fb1632a6e98855d3
+  - Component:default/1bc697da53d1d5c6b4ccf876555deab845804e09

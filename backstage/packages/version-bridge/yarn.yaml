@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 00e6bc743dd389d5c384b88828c49dbddb783465
+  description: ""
+  annotations:
+    pkg/source: '@backstage/version-bridge'
+    pkg/version: 0.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1fe48d288330e5315ac2a3b6c169c6d18a020fca
+  description: ""
+  annotations:
+    pkg/source: packages/version-bridge/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/00e6bc743dd389d5c384b88828c49dbddb783465

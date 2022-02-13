@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: befdf959d418bc57648511b0d19156c57a121f43
+  description: ""
+  annotations:
+    pkg/source: '@backstage/cli-common'
+    pkg/version: 0.1.6
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bd7e0ef39b71e1c1e395610f30dcdccbe8019205
+  description: ""
+  annotations:
+    pkg/source: packages/cli-common/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/befdf959d418bc57648511b0d19156c57a121f43

@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f5c7bbe18b2d1eac297138622f486d46ba4a1bd6
+  description: ""
+  annotations:
+    pkg/source: '@backstage/plugin-azure-devops-common'
+    pkg/version: 0.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: abf4963061dcdaebd5ecb653c57e44111f54a0db
+  description: ""
+  annotations:
+    pkg/source: plugins/azure-devops-common/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/f5c7bbe18b2d1eac297138622f486d46ba4a1bd6

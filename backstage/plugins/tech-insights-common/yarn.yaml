@@ -1,0 +1,74 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ea6a1ef042f796f40a64968e27c352af7f196b59
+  description: ""
+  annotations:
+    pkg/source: '@backstage/plugin-tech-insights-common'
+    pkg/version: 0.2.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4f4f8b2b6aabb90ee254954db7029aee645a933f
+  description: ""
+  annotations:
+    pkg/source: '@backstage/types'
+    pkg/version: ^0.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 667b2eb4f63785c215932e352f69605ab5b9fbb0
+  description: ""
+  annotations:
+    pkg/source: '@types/luxon'
+    pkg/version: 2.0.5
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0e43d9972ca1df4774e74b5b7b7a28a553e5e6cb
+  description: ""
+  annotations:
+    pkg/source: luxon
+    pkg/version: 2.0.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 39afb360b9dd639e0482e8f07efd9947726e4101
+  description: ""
+  annotations:
+    pkg/source: plugins/tech-insights-common/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/ea6a1ef042f796f40a64968e27c352af7f196b59
+  - Component:default/4f4f8b2b6aabb90ee254954db7029aee645a933f
+  - Component:default/667b2eb4f63785c215932e352f69605ab5b9fbb0
+  - Component:default/0e43d9972ca1df4774e74b5b7b7a28a553e5e6cb

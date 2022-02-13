@@ -1,0 +1,359 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f03ba1a8fd04c097a646bdb72607d316022994fd
+  description: ""
+  annotations:
+    pkg/source: '@backstage/catalog-model'
+    pkg/version: 0.9.10
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d5b218747e8d1cfb805fe60224c562f8066253c1
+  description: ""
+  annotations:
+    pkg/source: '@backstage/config'
+    pkg/version: ^0.1.13
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 59d5211bd145e7bd0ad06b39bc8a4feac1dae5e0
+  description: ""
+  annotations:
+    pkg/source: '@backstage/errors'
+    pkg/version: ^0.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4f4f8b2b6aabb90ee254954db7029aee645a933f
+  description: ""
+  annotations:
+    pkg/source: '@backstage/types'
+    pkg/version: ^0.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 00c552277e9aaca5f4c9b04ec55c8b6c265e7c8f
+  description: ""
+  annotations:
+    pkg/source: '@types/json-schema'
+    pkg/version: 7.0.9
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bd0c77fd15c0af2ec9893feb7b3e821b33ec3484
+  description: ""
+  annotations:
+    pkg/source: '@types/yup'
+    pkg/version: 0.29.13
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a6e232984ffd13b6997457086069034f6eab8542
+  description: ""
+  annotations:
+    pkg/source: fast-deep-equal
+    pkg/version: 3.1.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7cbce0cb4643f8eba5d2b16198eab43b6909fbcb
+  description: ""
+  annotations:
+    pkg/source: json-schema-traverse
+    pkg/version: 1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c8bd4df02c9a8ec3bc582dc3046bc1340935a2cd
+  description: ""
+  annotations:
+    pkg/source: require-from-string
+    pkg/version: 2.0.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c323a273e3fdb0c86fb9a9f6bc68f5b1c38ca99e
+  description: ""
+  annotations:
+    pkg/source: punycode
+    pkg/version: 2.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 44a8e3ee004e180ee992437fca66658f91482580
+  description: ""
+  annotations:
+    pkg/source: uri-js
+    pkg/version: 4.2.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cf2070f32a101e6fb023917d015ae8d2a50dd0e1
+  description: ""
+  annotations:
+    pkg/source: ajv
+    pkg/version: 7.0.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e052d2b5ff1561430ed978d9618812e51aea446b
+  description: ""
+  annotations:
+    pkg/source: json-schema
+    pkg/version: 0.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 40200088452ce6b4810fc67d9e057ca3cdc7d758
+  description: ""
+  annotations:
+    pkg/source: lodash
+    pkg/version: 4.17.21
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f8d0a9da9fd32edc7e9b150a59fb4c35a2466dde
+  description: ""
+  annotations:
+    pkg/source: uuid
+    pkg/version: 8.3.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a7ef0bebf6636a98300a186cd5125071fa4c8282
+  description: ""
+  annotations:
+    pkg/source: regenerator-runtime
+    pkg/version: 0.13.7
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9132df14b4f15d69e99d03fa981f9c15b89e4f20
+  description: ""
+  annotations:
+    pkg/source: '@babel/runtime'
+    pkg/version: 7.16.7
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5ede96d94b6e11e2562c146d89c4621e4a5b00ac
+  description: ""
+  annotations:
+    pkg/source: '@types/lodash'
+    pkg/version: 4.14.178
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8689220bd9d662629c6cb1ac3aef015380b5ba80
+  description: ""
+  annotations:
+    pkg/source: lodash-es
+    pkg/version: 4.17.21
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 707fff97f61fd543c876db21a89e5c0b488f2091
+  description: ""
+  annotations:
+    pkg/source: nanoclone
+    pkg/version: 0.2.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e246d9f4f9a9c2e4aae0b031c2929fd109015b9f
+  description: ""
+  annotations:
+    pkg/source: property-expr
+    pkg/version: 2.0.4
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 785c8c273ac0866f9155694c24d835f6c16e2140
+  description: ""
+  annotations:
+    pkg/source: toposort
+    pkg/version: 2.0.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 53658a98ca55038cada69c58d4f7be7d32265151
+  description: ""
+  annotations:
+    pkg/source: yup
+    pkg/version: 0.32.11
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0c6afeb7e917fe9ece6107a65da3c3348c3b7852
+  description: ""
+  annotations:
+    pkg/source: packages/catalog-model/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/f03ba1a8fd04c097a646bdb72607d316022994fd
+  - Component:default/d5b218747e8d1cfb805fe60224c562f8066253c1
+  - Component:default/59d5211bd145e7bd0ad06b39bc8a4feac1dae5e0
+  - Component:default/4f4f8b2b6aabb90ee254954db7029aee645a933f
+  - Component:default/00c552277e9aaca5f4c9b04ec55c8b6c265e7c8f
+  - Component:default/bd0c77fd15c0af2ec9893feb7b3e821b33ec3484
+  - Component:default/a6e232984ffd13b6997457086069034f6eab8542
+  - Component:default/7cbce0cb4643f8eba5d2b16198eab43b6909fbcb
+  - Component:default/c8bd4df02c9a8ec3bc582dc3046bc1340935a2cd
+  - Component:default/c323a273e3fdb0c86fb9a9f6bc68f5b1c38ca99e
+  - Component:default/44a8e3ee004e180ee992437fca66658f91482580
+  - Component:default/cf2070f32a101e6fb023917d015ae8d2a50dd0e1
+  - Component:default/e052d2b5ff1561430ed978d9618812e51aea446b
+  - Component:default/40200088452ce6b4810fc67d9e057ca3cdc7d758
+  - Component:default/f8d0a9da9fd32edc7e9b150a59fb4c35a2466dde
+  - Component:default/a7ef0bebf6636a98300a186cd5125071fa4c8282
+  - Component:default/9132df14b4f15d69e99d03fa981f9c15b89e4f20
+  - Component:default/5ede96d94b6e11e2562c146d89c4621e4a5b00ac
+  - Component:default/8689220bd9d662629c6cb1ac3aef015380b5ba80
+  - Component:default/707fff97f61fd543c876db21a89e5c0b488f2091
+  - Component:default/e246d9f4f9a9c2e4aae0b031c2929fd109015b9f
+  - Component:default/785c8c273ac0866f9155694c24d835f6c16e2140
+  - Component:default/53658a98ca55038cada69c58d4f7be7d32265151
