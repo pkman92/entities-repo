@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 620ccd40234b78f4d4444d7a774e46072537cf9f
+  description: ""
+  annotations:
+    pkg/source: gcr.io/distroless/static
+    pkg/version: latest
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e42ddcc22026120a48c0b4ee71b5a091b3c8a96f
+  description: ""
+  annotations:
+    pkg/base_image: gcr.io/distroless/static:latest
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/bc60ee09-4bea-4f4c-a774-b77acd03283a
+    pkg/image_tag: latest
+    pkg/repo: pkman92/kubernetes
+    pkg/source: staging/src/k8s.io/pod-security-admission/webhook/Dockerfile
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/620ccd40234b78f4d4444d7a774e46072537cf9f

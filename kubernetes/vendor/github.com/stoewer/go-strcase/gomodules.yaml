@@ -1,0 +1,123 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0fb42da402d1ee12cb6c658529832180119fd99b
+  description: ""
+  annotations:
+    pkg/source: github.com/stoewer/go-strcase
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/objx
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e028427f92590f74d449f768ce57b2f6be23e4ae
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v0.0.0-20161208181325-20d25e280405
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 299a605838b837abcb2fcd9beb679536f888a999
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v2
+    pkg/version: v2.2.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 61548f261006ccb835a57596eee4250dd9fb9592
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/testify
+    pkg/version: v1.5.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cc97eebd4b3f1f97d77bb38c96f826182a07a4cd
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/e50081a2-f704-4b46-9220-827740578f95
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/stoewer/go-strcase/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":2,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/0fb42da402d1ee12cb6c658529832180119fd99b
+  - Component:default/8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  - Component:default/e028427f92590f74d449f768ce57b2f6be23e4ae
+  - Component:default/299a605838b837abcb2fcd9beb679536f888a999
+  - Component:default/61548f261006ccb835a57596eee4250dd9fb9592

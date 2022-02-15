@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f78b674ebc4d4e8898bfd8871425a6f1f490862e
+  description: ""
+  annotations:
+    pkg/source: empty
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2d6988e2975da2ba408c45e3d507d5495b00a6d2
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/e9668889-6c98-4067-b409-bf38de937287
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/antlr/antlr4/runtime/Go/antlr/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/f78b674ebc4d4e8898bfd8871425a6f1f490862e

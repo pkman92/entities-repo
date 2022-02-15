@@ -1,0 +1,3078 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7b496c8b41d360319cccb0e83c60e1d821316ad1
+  description: ""
+  annotations:
+    pkg/source: golang
+    pkg/version: latest
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0b5511d4c34ce9286e6b10b703c121073069f539
+  description: ""
+  annotations:
+    pkg/source: acl/libacl1
+    pkg/version: 2.2.53-10
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 72aabfa093a1615acb171b4f60b9642639f73552
+  description: ""
+  annotations:
+    pkg/source: adduser
+    pkg/version: "3.118"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 80bf037486b84073740a337cce03d5f979ae04a1
+  description: ""
+  annotations:
+    pkg/source: apr-util/libaprutil1
+    pkg/version: 1.6.1-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 881556dbd6c7ddd0b1f9135269a11e1ed999f63e
+  description: ""
+  annotations:
+    pkg/source: apr/libapr1
+    pkg/version: 1.7.0-6+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 715d971a5d041f13170d99654a6dc242b28c7818
+  description: ""
+  annotations:
+    pkg/source: apt
+    pkg/version: 2.2.4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f58bcd93a632647cfdeb39ac403b95125e5b9090
+  description: ""
+  annotations:
+    pkg/source: apt/libapt-pkg6.0
+    pkg/version: 2.2.4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 49286ba07fdd0b5ae2a4c4180def8f23c4932286
+  description: ""
+  annotations:
+    pkg/source: attr/libattr1
+    pkg/version: 1:2.4.48-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 47d29ab26ff078a32fa0144c460d7ec586403e67
+  description: ""
+  annotations:
+    pkg/source: audit/libaudit-common
+    pkg/version: 1:3.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b2f608d194a6a78cbc091ba94a98d4178650c485
+  description: ""
+  annotations:
+    pkg/source: audit/libaudit1
+    pkg/version: 1:3.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8ccb565114ce132b3b21bd59a46fea265b311756
+  description: ""
+  annotations:
+    pkg/source: base-files
+    pkg/version: 11.1+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 3221c290c07d16425324a37dd345ab4759d362e3
+  description: ""
+  annotations:
+    pkg/source: base-passwd
+    pkg/version: 3.5.51
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bcdc5d9d305dcb0e13b1520fe9f46b7f3e03dda8
+  description: ""
+  annotations:
+    pkg/source: bash/bash
+    pkg/version: 5.1-2+b3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 44c3154f74dccea03731e34bf43f79cb1e16f831
+  description: ""
+  annotations:
+    pkg/source: binutils
+    pkg/version: 2.35.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c48618a94ac62da03d2201be3ff2344ba52c843a
+  description: ""
+  annotations:
+    pkg/source: binutils/binutils-common
+    pkg/version: 2.35.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 445d7d312016b1f724f545cb95a78b94071a2258
+  description: ""
+  annotations:
+    pkg/source: binutils/binutils-x86-64-linux-gnu
+    pkg/version: 2.35.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 829cf40e716f5f88eafa947acf3e033a1f525d19
+  description: ""
+  annotations:
+    pkg/source: binutils/libbinutils
+    pkg/version: 2.35.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8e46c8b050693380e3164d62334f29dacf8b4aab
+  description: ""
+  annotations:
+    pkg/source: binutils/libctf-nobfd0
+    pkg/version: 2.35.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4a67cb667955fe049653d158653feccc96f2d0d3
+  description: ""
+  annotations:
+    pkg/source: binutils/libctf0
+    pkg/version: 2.35.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 3873e6882c022fd6611f20e72897bdfe7e02ad64
+  description: ""
+  annotations:
+    pkg/source: brotli/libbrotli1
+    pkg/version: 1.0.9-2+b2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 024c5b5fe89f1af36dae4914a31784c298d5f803
+  description: ""
+  annotations:
+    pkg/source: bzip2/libbz2-1.0
+    pkg/version: 1.0.8-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f8f75ab96f88523d966bbd2d23d600f4cd318d20
+  description: ""
+  annotations:
+    pkg/source: ca-certificates
+    pkg/version: "20210119"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 125e79d0d0111dc895dcf925731c59ed3b98a339
+  description: ""
+  annotations:
+    pkg/source: cdebconf/libdebconfclient0
+    pkg/version: "0.260"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 204cbd7fd00018fc3303b0460d13df71ec4b4383
+  description: ""
+  annotations:
+    pkg/source: coreutils/coreutils
+    pkg/version: 8.32-4+b1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9863a807c01130f7485f70bf6e17be9da1f9d23c
+  description: ""
+  annotations:
+    pkg/source: curl
+    pkg/version: 7.74.0-1.3+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 22312055bb9f7b70ede82db259f9585809d4f1b2
+  description: ""
+  annotations:
+    pkg/source: curl/libcurl3-gnutls
+    pkg/version: 7.74.0-1.3+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: afb2c33ac1673b38ad81b02eb56d740292b26876
+  description: ""
+  annotations:
+    pkg/source: curl/libcurl4
+    pkg/version: 7.74.0-1.3+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2dddb3623337449752e00877a92cb30622ae1fc5
+  description: ""
+  annotations:
+    pkg/source: cyrus-sasl2/libsasl2-2
+    pkg/version: 2.1.27+dfsg-2.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9e48273dd89556aae1af1a146874cfbfa76a2710
+  description: ""
+  annotations:
+    pkg/source: cyrus-sasl2/libsasl2-modules-db
+    pkg/version: 2.1.27+dfsg-2.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0edfd3a00c51b15de3d938a8d8a004c2a67201ad
+  description: ""
+  annotations:
+    pkg/source: dash
+    pkg/version: 0.5.11+git20200708+dd9ef66-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0a4021c4826440fb57e76042272f4e4188f71573
+  description: ""
+  annotations:
+    pkg/source: db5.3/libdb5.3
+    pkg/version: 5.3.28+dfsg1-0.8
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c65a02e2c3a5017659f1c91daf970665d525e296
+  description: ""
+  annotations:
+    pkg/source: debconf
+    pkg/version: 1.5.77
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 000c004bd1b1a5a6f5788e6f431e5c97ab53ec90
+  description: ""
+  annotations:
+    pkg/source: debian-archive-keyring
+    pkg/version: 2021.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5ec95ca322f69255ee43fa6fd9f95581e85967aa
+  description: ""
+  annotations:
+    pkg/source: debianutils
+    pkg/version: 4.11.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: beaa205a06795c29939e2ff77afa4c273790cef5
+  description: ""
+  annotations:
+    pkg/source: diffutils
+    pkg/version: 1:3.7-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bad76f2fea34f69429a891f264e39524d3836177
+  description: ""
+  annotations:
+    pkg/source: dpkg
+    pkg/version: 1.20.9
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5d226df76af5109c5959b33b40e2f330ccffd8c
+  description: ""
+  annotations:
+    pkg/source: dpkg/libdpkg-perl
+    pkg/version: 1.20.9
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 46076f7d4afaa38fee0226152de67becd18464f9
+  description: ""
+  annotations:
+    pkg/source: e2fsprogs
+    pkg/version: 1.46.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bd087ce355bbdb93a530bcb12b34779867cbf6da
+  description: ""
+  annotations:
+    pkg/source: e2fsprogs/libcom-err2
+    pkg/version: 1.46.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 44901dec26326999e339e9c536a1488e967b5a76
+  description: ""
+  annotations:
+    pkg/source: e2fsprogs/libext2fs2
+    pkg/version: 1.46.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a46a37f4ebf73266165f3c604216fda94171fb80
+  description: ""
+  annotations:
+    pkg/source: e2fsprogs/libss2
+    pkg/version: 1.46.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9c693fe630cb47cbd7a36bb34e5654808402198a
+  description: ""
+  annotations:
+    pkg/source: e2fsprogs/logsave
+    pkg/version: 1.46.2-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eeff0628c6be6dba1039b7119218530e608e3a10
+  description: ""
+  annotations:
+    pkg/source: expat/libexpat1
+    pkg/version: 2.2.10-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bc2e3ff8971dcf7b7f077a7993ae2ee4e4f99443
+  description: ""
+  annotations:
+    pkg/source: findutils
+    pkg/version: 4.8.0-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 60127e39c51693992846136805a29a57e91a7d3a
+  description: ""
+  annotations:
+    pkg/source: gcc-10
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 02f7dea37677f8bcb701bca3ad9b1621853cb45b
+  description: ""
+  annotations:
+    pkg/source: gcc-10/cpp-10
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 23d0d06963f94781e07ec9c7af490b526dfff42e
+  description: ""
+  annotations:
+    pkg/source: gcc-10/g++-10
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 11a7a814ad635935422577f3c6fd370cf65297a8
+  description: ""
+  annotations:
+    pkg/source: gcc-10/gcc-10-base
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 968fcdcc40fc31d151c01ad148ff0b97b13c9648
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libasan6
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ab4ea4a9e509b9c496c8e0d9c45e8ffeacecb612
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libatomic1
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dc400469dac4f487ad75aec1fa396d74fec94a9e
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libcc1-0
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 28cde52fb2fa4a9d7102aff696400c5fec1bad3e
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libgcc-10-dev
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e2289c1302e9b5051a768b2f11d17d0c77eeda1f
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libgcc-s1
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f80281a28201246987f5824e43349ed8655f0b9d
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libgomp1
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f2cfb19f67fd77aa71afcd2f74223788a706fa8f
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libitm1
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b20ad9a39ee96acf738ab61a3e065dea4c158e34
+  description: ""
+  annotations:
+    pkg/source: gcc-10/liblsan0
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 76e99fcf4a5130002e8ba8888fc21e778ae17df7
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libquadmath0
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7677889849e92accc14f8c73eb41c72146ed9696
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libstdc++-10-dev
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 12be24b8441f4998fb67709a0af53f20e3c9aa23
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libstdc++6
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 749b45435fcc44795e340931163813dd31298ecc
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libtsan0
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 89a55ecc0e9011c031e42697ed5415ddee649c93
+  description: ""
+  annotations:
+    pkg/source: gcc-10/libubsan1
+    pkg/version: 10.2.1-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c3a92598c2bff2af5131f1b36903d1bac49ccc89
+  description: ""
+  annotations:
+    pkg/source: gcc-9/gcc-9-base
+    pkg/version: 9.3.0-22
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a0f3fadf0348d083be86f7126cb9700093647f39
+  description: ""
+  annotations:
+    pkg/source: gcc-defaults/cpp
+    pkg/version: 4:10.2.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a21f8392fbb2b978272c4f8b21d8a6e036ecdbbd
+  description: ""
+  annotations:
+    pkg/source: gcc-defaults/g++
+    pkg/version: 4:10.2.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 6aea7150c533f66689f5578d8dfc2614b34792c3
+  description: ""
+  annotations:
+    pkg/source: gcc-defaults/gcc
+    pkg/version: 4:10.2.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 3eb246959cd4077f7406d9b0d65d779468c742bf
+  description: ""
+  annotations:
+    pkg/source: gdbm/libgdbm-compat4
+    pkg/version: 1.19-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 050e6106c1f602c75bb8611f64929b4703016ba9
+  description: ""
+  annotations:
+    pkg/source: gdbm/libgdbm6
+    pkg/version: 1.19-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 877f413a30082d9c42384d319237f84956d0d4b1
+  description: ""
+  annotations:
+    pkg/source: git
+    pkg/version: 1:2.30.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c278af721dc34bffb6508f1500b83db6f4e1efa3
+  description: ""
+  annotations:
+    pkg/source: git/git-man
+    pkg/version: 1:2.30.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f10d5c12dda35bf8d3c21d6b23213a23c0a5120f
+  description: ""
+  annotations:
+    pkg/source: glib2.0/libglib2.0-0
+    pkg/version: 2.66.8-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 02ef0fe7ae80ebb25b8c8b52e2ac3bfadfb74a05
+  description: ""
+  annotations:
+    pkg/source: glibc/libc-bin
+    pkg/version: 2.31-13+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2bfa2c3f3fa6733eb3849dab039f54d548d476c8
+  description: ""
+  annotations:
+    pkg/source: glibc/libc-dev-bin
+    pkg/version: 2.31-13+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2b8716bcb8e4d11fdb8618e4af811dc51bb6eca9
+  description: ""
+  annotations:
+    pkg/source: glibc/libc6
+    pkg/version: 2.31-13+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cedec07a7e823c5c2c91534c124c08e7d8821682
+  description: ""
+  annotations:
+    pkg/source: glibc/libc6-dev
+    pkg/version: 2.31-13+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8cc20e6cfa81f4dcd79d23a224dc04796f190ad6
+  description: ""
+  annotations:
+    pkg/source: gmp/libgmp10
+    pkg/version: 2:6.2.1+dfsg-1+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d17bff4da1eedb96f97f3ec16a6bd12c5636002a
+  description: ""
+  annotations:
+    pkg/source: gnupg2/dirmngr
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b65d9fef42eec5d938c20bc11f3493aeab0d170f
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gnupg
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e033c569c01d733e438e704e1ee95c6c399c6695
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gnupg-l10n
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aa29e8e5f6dc8959a7a6dde0067bdb6fa6b30838
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gnupg-utils
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0537ac052eec1d21cee40515eddf475aa3df7c77
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpg
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5bee7ab20c6e25ebe8a3fe9f00d23bcbc53aeac7
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpg-agent
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9e5f7fc3a7faf8d6b2a41f14259109f3d0a79b08
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpg-wks-client
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f061300b17ac624633a823a27bd863e74f2c48c2
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpg-wks-server
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7af7c41def8271dac05897d2a1af7a03cc1e9d66
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpgconf
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2f826eacc4e7c8356e25aeb060a1f3e0a1544ef2
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpgsm
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 312b4891e2e2b6e028c38ead859b578f24c4afd1
+  description: ""
+  annotations:
+    pkg/source: gnupg2/gpgv
+    pkg/version: 2.2.27-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5af3f8e4482edc048e3669f14ee8fdc8e025afcc
+  description: ""
+  annotations:
+    pkg/source: gnutls28/libgnutls30
+    pkg/version: 3.7.1-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bf4fd1665682d7e4ca98f69ce0f45ed688272812
+  description: ""
+  annotations:
+    pkg/source: grep
+    pkg/version: 3.6-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 404e5409408e0cf7b2c300b018b563892531058e
+  description: ""
+  annotations:
+    pkg/source: gzip
+    pkg/version: 1.10-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 65d052648269269467b20c18cb5b8fe3fd995098
+  description: ""
+  annotations:
+    pkg/source: hostname
+    pkg/version: "3.23"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 28334d4d7c71fc5272573bbc95dfd968f12c82a3
+  description: ""
+  annotations:
+    pkg/source: init-system-helpers
+    pkg/version: "1.60"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fa8bfba41dea55bd3ff38e9adeeca39ce14ed8fb
+  description: ""
+  annotations:
+    pkg/source: isl/libisl23
+    pkg/version: 0.23-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a00eee579edacb32e22e0e95073c7a1ec14f4ad0
+  description: ""
+  annotations:
+    pkg/source: keyutils/libkeyutils1
+    pkg/version: 1.6.1-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 426a3cfeb29fc2885350cf8d826b9b2744fd1032
+  description: ""
+  annotations:
+    pkg/source: krb5/libgssapi-krb5-2
+    pkg/version: 1.18.3-6+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4caa42e3ab0f9acfef07ba20464b3e170ad19284
+  description: ""
+  annotations:
+    pkg/source: krb5/libk5crypto3
+    pkg/version: 1.18.3-6+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5e2ec9ee13d53f4035d473f071d59a4fe7de221f
+  description: ""
+  annotations:
+    pkg/source: krb5/libkrb5-3
+    pkg/version: 1.18.3-6+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 11ff77fe208119a56605f0ca6d10413d53a10e4b
+  description: ""
+  annotations:
+    pkg/source: krb5/libkrb5support0
+    pkg/version: 1.18.3-6+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5cf3e5f92421a56ca1b08e40ae1d4fb64606560a
+  description: ""
+  annotations:
+    pkg/source: libassuan/libassuan0
+    pkg/version: 2.5.3-7.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5e9b5dfb771ee3e2565a2eec5a75ee5eeeb41ea3
+  description: ""
+  annotations:
+    pkg/source: libbsd/libbsd0
+    pkg/version: 0.11.3-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 12121dee10657c43bb4b02ee8ed8125e88953442
+  description: ""
+  annotations:
+    pkg/source: libcap-ng/libcap-ng0
+    pkg/version: 0.7.9-2.2+b1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 854e841a3d5c6c069f1948cbbde21e9c678852ca
+  description: ""
+  annotations:
+    pkg/source: libcbor/libcbor0
+    pkg/version: 0.5.0+dfsg-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 800dd9f141b8a4710f8164b23c151835a47a56d2
+  description: ""
+  annotations:
+    pkg/source: libedit/libedit2
+    pkg/version: 3.1-20191231-2+b1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aeb27aff7e1f59595ddad5c168df6590804e6788
+  description: ""
+  annotations:
+    pkg/source: liberror-perl
+    pkg/version: 0.17029-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5bbca3bcf240b830266b0f27a4da61101ae75e9
+  description: ""
+  annotations:
+    pkg/source: libffi/libffi7
+    pkg/version: 3.3-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c9f428574a33d910bd6777e4bd35e24cf82b18ac
+  description: ""
+  annotations:
+    pkg/source: libfido2/libfido2-1
+    pkg/version: 1.6.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 98664cbf4b50478649b53095b5ddc6ff439978b9
+  description: ""
+  annotations:
+    pkg/source: libgcrypt20
+    pkg/version: 1.8.7-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8c02a7a198f1f04f87d433177e1a89314776bddc
+  description: ""
+  annotations:
+    pkg/source: libgpg-error/libgpg-error0
+    pkg/version: 1.38-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c500527766c732049cf602fa3bcae58f8e6c4efc
+  description: ""
+  annotations:
+    pkg/source: libidn2/libidn2-0
+    pkg/version: 2.3.0-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 87a9a175551090b9da60f2081973fc11c3cba2aa
+  description: ""
+  annotations:
+    pkg/source: libksba/libksba8
+    pkg/version: 1.5.0-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bf2551cb42c1d58927900a5d9248b6e2f565b42f
+  description: ""
+  annotations:
+    pkg/source: libmd/libmd0
+    pkg/version: 1.0.3-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7daa80b2ac0fd83f11d1c04609642c1ae0a2bc33
+  description: ""
+  annotations:
+    pkg/source: libnsl/libnsl-dev
+    pkg/version: 1.3.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 46f89f84cbc0834c28057395e5ebf63f2e0337c5
+  description: ""
+  annotations:
+    pkg/source: libnsl/libnsl2
+    pkg/version: 1.3.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f1d853c344292465807571fc33274aac4c7c7eaf
+  description: ""
+  annotations:
+    pkg/source: libpsl/libpsl5
+    pkg/version: 0.21.0-1.2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 05bf1735753b5dffa72db2d38b715e18740b3f47
+  description: ""
+  annotations:
+    pkg/source: libseccomp/libseccomp2
+    pkg/version: 2.5.1-1+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c54ed8022f5db78977a59efc75c10a05ee16f109
+  description: ""
+  annotations:
+    pkg/source: libselinux/libselinux1
+    pkg/version: 3.1-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eba0e8a7035bd3fa86cd24bd5387425bfed617d4
+  description: ""
+  annotations:
+    pkg/source: libsemanage/libsemanage-common
+    pkg/version: 3.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e03e7e542e356d18f90440a4a5d6261e1972d346
+  description: ""
+  annotations:
+    pkg/source: libsemanage/libsemanage1
+    pkg/version: 3.1-1+b2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f201386beb45b093937fc803ce53dd905b0bd971
+  description: ""
+  annotations:
+    pkg/source: libsepol/libsepol1
+    pkg/version: 3.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d132e19c70d290160c507ff65061f74faa5a568a
+  description: ""
+  annotations:
+    pkg/source: libssh2/libssh2-1
+    pkg/version: 1.9.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8aca16a253beb3ea1c235ee105e49a9923d000b9
+  description: ""
+  annotations:
+    pkg/source: libtasn1-6
+    pkg/version: 4.16.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a35d8347890c829b7e9530c6f84e29db57690d3c
+  description: ""
+  annotations:
+    pkg/source: libtirpc/libtirpc-common
+    pkg/version: 1.3.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 597310dcbcb53973389b1b9737597a7bb054449c
+  description: ""
+  annotations:
+    pkg/source: libtirpc/libtirpc-dev
+    pkg/version: 1.3.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e6eaae2b3b3cf67c7bf13e48dc79fff348a00344
+  description: ""
+  annotations:
+    pkg/source: libtirpc/libtirpc3
+    pkg/version: 1.3.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 05dfbb2469a77dce42ea1452fd85d8f060f12701
+  description: ""
+  annotations:
+    pkg/source: libunistring/libunistring2
+    pkg/version: 0.9.10-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 212ed6b7133e8b16236afa7ede5e3170b55632da
+  description: ""
+  annotations:
+    pkg/source: libxcrypt/libcrypt-dev
+    pkg/version: 1:4.4.18-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 53344371e58b2b00b8d146711821f13595cab6c4
+  description: ""
+  annotations:
+    pkg/source: libxcrypt/libcrypt1
+    pkg/version: 1:4.4.18-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7489214fe02ba6ba64c1250d4c14e3340bbd7f0b
+  description: ""
+  annotations:
+    pkg/source: libzstd/libzstd1
+    pkg/version: 1.4.8+dfsg-2.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 6224ccbb7f264a56bfd14ea73a8db88ae96aafd6
+  description: ""
+  annotations:
+    pkg/source: linux/linux-libc-dev
+    pkg/version: 5.10.92-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1af346b2f1c50b749048b3093f2f5797ea9baa8d
+  description: ""
+  annotations:
+    pkg/source: lsb/lsb-base
+    pkg/version: 11.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e1d2a0c945b35720247c5da666751df1390354a1
+  description: ""
+  annotations:
+    pkg/source: lz4/liblz4-1
+    pkg/version: 1.9.3-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9bfadf6d25b032bcb4717df194d42db3bc8f6881
+  description: ""
+  annotations:
+    pkg/source: make-dfsg/make
+    pkg/version: 4.3-4.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 05aa47bf5c76c26a7d277f9f9ec4a08100de1b6a
+  description: ""
+  annotations:
+    pkg/source: mawk
+    pkg/version: 1.3.4.20200120-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 09b259288918c979b4d3f0529d85d2a6779ad32b
+  description: ""
+  annotations:
+    pkg/source: media-types
+    pkg/version: 4.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dfbcd9cd8d45bc84d4fa582f5cd0e0c4670bdc4f
+  description: ""
+  annotations:
+    pkg/source: mercurial
+    pkg/version: 5.6.1-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5e8c50334b7e3e46e07da7487a30f49575b8e8ab
+  description: ""
+  annotations:
+    pkg/source: mercurial/mercurial-common
+    pkg/version: 5.6.1-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2035e5979be5cac41e64da612ea10461f7916026
+  description: ""
+  annotations:
+    pkg/source: meta-common-packages
+    pkg/version: meta
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 297d9067ef70ddfd9c48ef0045480872a2856d2e
+  description: ""
+  annotations:
+    pkg/source: mpclib3/libmpc3
+    pkg/version: 1.2.0-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4aa6d8c42b83068273b97a37fd9e176cac67c176
+  description: ""
+  annotations:
+    pkg/source: mpdecimal/libmpdec3
+    pkg/version: 2.5.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2c0749e874e097b21010105def9ef764aa0392b6
+  description: ""
+  annotations:
+    pkg/source: mpfr4/libmpfr6
+    pkg/version: 4.1.0-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c0fb2239153079e686b7b6bb35b4be65ffa25345
+  description: ""
+  annotations:
+    pkg/source: ncurses/libncurses6
+    pkg/version: 6.2+20201114-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0f7d53f909b73ef56d65c8aa52836232738d9552
+  description: ""
+  annotations:
+    pkg/source: ncurses/libncursesw6
+    pkg/version: 6.2+20201114-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 19e742349865f76734857900e11d2cdc51c66228
+  description: ""
+  annotations:
+    pkg/source: ncurses/libtinfo6
+    pkg/version: 6.2+20201114-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a4d6531c838310c9caa7ab618de18c9aa930a7c8
+  description: ""
+  annotations:
+    pkg/source: ncurses/ncurses-base
+    pkg/version: 6.2+20201114-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 841c6e9211e7e907e33db5201eafbf9a47599a3e
+  description: ""
+  annotations:
+    pkg/source: ncurses/ncurses-bin
+    pkg/version: 6.2+20201114-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4c14aee856814596af723f02a2aa4d35601e7e8e
+  description: ""
+  annotations:
+    pkg/source: netbase
+    pkg/version: "6.3"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9a665758631319f1c4b1ded550386a68f62cf623
+  description: ""
+  annotations:
+    pkg/source: nettle/libhogweed6
+    pkg/version: 3.7.3-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d553d32172cb31613edf2e8544245fd20a7217c0
+  description: ""
+  annotations:
+    pkg/source: nettle/libnettle8
+    pkg/version: 3.7.3-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8d387917a9459995d44a4993e0f2e4bcce26e92d
+  description: ""
+  annotations:
+    pkg/source: nghttp2/libnghttp2-14
+    pkg/version: 1.43.0-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cfc882cb6ba72f57499a8266288db311cb120392
+  description: ""
+  annotations:
+    pkg/source: npth/libnpth0
+    pkg/version: 1.6-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d21fcae5f5ef6af55b90e970ce57483f2ccf77ce
+  description: ""
+  annotations:
+    pkg/source: openldap/libldap-2.4-2
+    pkg/version: 2.4.57+dfsg-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 83634ab4a1011c67ca3aa651aa94607ffec84e85
+  description: ""
+  annotations:
+    pkg/source: openssh/openssh-client
+    pkg/version: 1:8.4p1-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c0f7b811e86aee8a9ceb0e27dda19c71f272b77a
+  description: ""
+  annotations:
+    pkg/source: openssl
+    pkg/version: 1.1.1k-1+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1e9229ec940eae00119924e8a311508d8d2061c6
+  description: ""
+  annotations:
+    pkg/source: openssl/libssl1.1
+    pkg/version: 1.1.1k-1+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4d9a0f0043a8e565367ac33fe06348b4be2e013c
+  description: ""
+  annotations:
+    pkg/source: p11-kit/libp11-kit0
+    pkg/version: 0.23.22-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 753fae129437d0c3ec6183d9ac66b57623789549
+  description: ""
+  annotations:
+    pkg/source: pam/libpam-modules
+    pkg/version: 1.4.0-9+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 3fb0cf6850c8aa1624e42c1d6372d5d747dcee42
+  description: ""
+  annotations:
+    pkg/source: pam/libpam-modules-bin
+    pkg/version: 1.4.0-9+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d8730214077ebaad7216c490b4d2fcc4fda3ef7d
+  description: ""
+  annotations:
+    pkg/source: pam/libpam-runtime
+    pkg/version: 1.4.0-9+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4a49c3bd15fe682f13b8bd190d546d993e43d858
+  description: ""
+  annotations:
+    pkg/source: pam/libpam0g
+    pkg/version: 1.4.0-9+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9e56163af492aeecf37a8d5c592a51de18f94fb4
+  description: ""
+  annotations:
+    pkg/source: pcre2/libpcre2-8-0
+    pkg/version: 10.36-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 44483eaa61bc0f090b4e62ad0ea20fd14282e80e
+  description: ""
+  annotations:
+    pkg/source: pcre3/libpcre3
+    pkg/version: 2:8.39-13
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 231f48575315e2044ac1c3f7fa5b7ed358a9a4ed
+  description: ""
+  annotations:
+    pkg/source: perl
+    pkg/version: 5.32.1-4+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ceb1c74dfb9eb8e2c11c4a650926b476f8d8bc73
+  description: ""
+  annotations:
+    pkg/source: perl/libperl5.32
+    pkg/version: 5.32.1-4+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7e1be8946894b6ca93a7c18953f5d76a259243cd
+  description: ""
+  annotations:
+    pkg/source: perl/perl-base
+    pkg/version: 5.32.1-4+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 046a3c60971574e329ea9763f36ef612653bedc0
+  description: ""
+  annotations:
+    pkg/source: perl/perl-modules-5.32
+    pkg/version: 5.32.1-4+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 79c4ea4f916d9a1c2752f12a50285a12f1424e01
+  description: ""
+  annotations:
+    pkg/source: pinentry/pinentry-curses
+    pkg/version: 1.1.0-4
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 75e78ee676c28fba82021c6d32b20d3856780365
+  description: ""
+  annotations:
+    pkg/source: pkg-config
+    pkg/version: 0.29.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b4238f7c0c1125d47f399a19a6ebe22c089b181d
+  description: ""
+  annotations:
+    pkg/source: procps
+    pkg/version: 2:3.3.17-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fbbfb8742d9395ca94149abf418db18049ae2446
+  description: ""
+  annotations:
+    pkg/source: procps/libprocps8
+    pkg/version: 2:3.3.17-5
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 30418f4656bdc80e61c81660c1300bcbc889162a
+  description: ""
+  annotations:
+    pkg/source: python3-defaults/libpython3-stdlib
+    pkg/version: 3.9.2-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 76ed0fce1b96002efbf859f603cac46ec1ba89af
+  description: ""
+  annotations:
+    pkg/source: python3-defaults/python3
+    pkg/version: 3.9.2-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 35cf613cbe75120a5b3c64054de47da67497bd77
+  description: ""
+  annotations:
+    pkg/source: python3-defaults/python3-minimal
+    pkg/version: 3.9.2-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7a752fa6138aebeb189a5f945b84b971fbb73669
+  description: ""
+  annotations:
+    pkg/source: python3.9
+    pkg/version: 3.9.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 11e9860541688556295fe86051867497550c5901
+  description: ""
+  annotations:
+    pkg/source: python3.9/libpython3.9-minimal
+    pkg/version: 3.9.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4bd19e47a8eda92b5e2499b18b25856c59a01706
+  description: ""
+  annotations:
+    pkg/source: python3.9/libpython3.9-stdlib
+    pkg/version: 3.9.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0c62de735423b2c4ad5fbfa349f64f249dc3d2ae
+  description: ""
+  annotations:
+    pkg/source: python3.9/python3.9-minimal
+    pkg/version: 3.9.2-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b50ebf7efe4f9e7f534e1425f0bd53bf1f293244
+  description: ""
+  annotations:
+    pkg/source: readline/libreadline8
+    pkg/version: 8.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 81f5edce266dc31a647442d5aa4f545f2abfa1db
+  description: ""
+  annotations:
+    pkg/source: readline/readline-common
+    pkg/version: 8.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 804adb7fd8d92b48486e817d635a1d97fd99d62e
+  description: ""
+  annotations:
+    pkg/source: rtmpdump/librtmp1
+    pkg/version: 2.4+20151223.gitfa8646d.1-2+b2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c3a5f34c21e76e37f3e3ce0e857f5f2e971de9a1
+  description: ""
+  annotations:
+    pkg/source: sed
+    pkg/version: 4.7-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: d65cb9457e350567a8606e5ff8f68666e1caa55e
+  description: ""
+  annotations:
+    pkg/source: sensible-utils
+    pkg/version: 0.0.14
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bb0153d9ed0148f6531958d30969cc780c71b9e2
+  description: ""
+  annotations:
+    pkg/source: serf/libserf-1-1
+    pkg/version: 1.3.9-10
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 639f22d35c5f8366b935859ecfe2ed282a3912aa
+  description: ""
+  annotations:
+    pkg/source: shadow/login
+    pkg/version: 1:4.8.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 4cbaa65d960c400c9b98f822ccc767f5a0e0bd31
+  description: ""
+  annotations:
+    pkg/source: shadow/passwd
+    pkg/version: 1:4.8.1-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 45e28115d673f7e66f6a1da040936d38937f09f1
+  description: ""
+  annotations:
+    pkg/source: sqlite3/libsqlite3-0
+    pkg/version: 3.34.1-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5d4993d28c24f96396dc6deb9595c045437183a6
+  description: ""
+  annotations:
+    pkg/source: subversion
+    pkg/version: 1.14.1-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cf560a73abab7bad60cda92d3ac4958aba712353
+  description: ""
+  annotations:
+    pkg/source: subversion/libsvn1
+    pkg/version: 1.14.1-3
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 91c4113a7e8dfc7b7eebbc3d0cd5eecf0df170c6
+  description: ""
+  annotations:
+    pkg/source: systemd/libsystemd0
+    pkg/version: 247.3-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8089de52a3caa9ab4aa744f50f4264ca5ff9becd
+  description: ""
+  annotations:
+    pkg/source: systemd/libudev1
+    pkg/version: 247.3-6
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c60f1126e0c99535373a755f2a71082863cd0ae4
+  description: ""
+  annotations:
+    pkg/source: sysvinit/sysvinit-utils
+    pkg/version: 2.96-7
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b6be0e3ec710848c729734ec71a55355ca2e50fa
+  description: ""
+  annotations:
+    pkg/source: tar
+    pkg/version: 1.34+dfsg-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 69008417a9ca3897676992b312be3dc866b3df85
+  description: ""
+  annotations:
+    pkg/source: tzdata
+    pkg/version: 2021a-1+deb11u2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7b652f8d13bab8b5755d115a791efb5c22cfdd4c
+  description: ""
+  annotations:
+    pkg/source: ucf
+    pkg/version: "3.0043"
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9ee228ecf2ba76c0590e5ed87f920333d64fe15d
+  description: ""
+  annotations:
+    pkg/source: utf8proc/libutf8proc2
+    pkg/version: 2.5.0-1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bd4817e3af1e8e1e175aa7270745d022da731f47
+  description: ""
+  annotations:
+    pkg/source: util-linux
+    pkg/version: 2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5d9340911e7e6a61c6e70ed22e855b28d21ac77
+  description: ""
+  annotations:
+    pkg/source: util-linux/bsdutils
+    pkg/version: 1:2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 454e724a454306b909f1db2b8994c8a197f11011
+  description: ""
+  annotations:
+    pkg/source: util-linux/libblkid1
+    pkg/version: 2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fd798c5dfd65c7bb38334f45c312f58d3073ea53
+  description: ""
+  annotations:
+    pkg/source: util-linux/libmount1
+    pkg/version: 2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ba50f85d50670337ecf011b6276e2a6f3395b5c2
+  description: ""
+  annotations:
+    pkg/source: util-linux/libsmartcols1
+    pkg/version: 2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 823eefb81f1613f6c8550d66b3174633f6ba7cc4
+  description: ""
+  annotations:
+    pkg/source: util-linux/libuuid1
+    pkg/version: 2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7bd65eb3ed83e0607ff6d945e35cb687dbf11a85
+  description: ""
+  annotations:
+    pkg/source: util-linux/mount
+    pkg/version: 2.36.1-8+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 162194b450de2bd13074107e8200df6b055e6264
+  description: ""
+  annotations:
+    pkg/source: wget
+    pkg/version: 1.21-1+deb11u1
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ca31dd891d416bc3f4e68ba5edcf1e9399e93b6d
+  description: ""
+  annotations:
+    pkg/source: xxhash/libxxhash0
+    pkg/version: 0.8.0-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 2b640cb647696ea72f503252bee78419180f7428
+  description: ""
+  annotations:
+    pkg/source: xz-utils/liblzma5
+    pkg/version: 5.2.5-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: da1e754de291eb2eaac2420349485cc494e0556d
+  description: ""
+  annotations:
+    pkg/source: zlib/zlib1g
+    pkg/version: 1:1.2.11.dfsg-2
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7dc554f9c646d4e9d9ff4353a42479f99b847a39
+  description: ""
+  annotations:
+    pkg/base_image: golang:latest
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/254da650-4ef5-4738-9830-ccb8e69e6b41
+    pkg/image_tag: latest
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/nxadm/tail/Dockerfile
+    pkg/vulnerabilities: '{"low":81,"medium":4,"high":9,"critical":10}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/7b496c8b41d360319cccb0e83c60e1d821316ad1
+  - Component:default/0b5511d4c34ce9286e6b10b703c121073069f539
+  - Component:default/72aabfa093a1615acb171b4f60b9642639f73552
+  - Component:default/80bf037486b84073740a337cce03d5f979ae04a1
+  - Component:default/881556dbd6c7ddd0b1f9135269a11e1ed999f63e
+  - Component:default/715d971a5d041f13170d99654a6dc242b28c7818
+  - Component:default/f58bcd93a632647cfdeb39ac403b95125e5b9090
+  - Component:default/49286ba07fdd0b5ae2a4c4180def8f23c4932286
+  - Component:default/47d29ab26ff078a32fa0144c460d7ec586403e67
+  - Component:default/b2f608d194a6a78cbc091ba94a98d4178650c485
+  - Component:default/8ccb565114ce132b3b21bd59a46fea265b311756
+  - Component:default/3221c290c07d16425324a37dd345ab4759d362e3
+  - Component:default/bcdc5d9d305dcb0e13b1520fe9f46b7f3e03dda8
+  - Component:default/44c3154f74dccea03731e34bf43f79cb1e16f831
+  - Component:default/c48618a94ac62da03d2201be3ff2344ba52c843a
+  - Component:default/445d7d312016b1f724f545cb95a78b94071a2258
+  - Component:default/829cf40e716f5f88eafa947acf3e033a1f525d19
+  - Component:default/8e46c8b050693380e3164d62334f29dacf8b4aab
+  - Component:default/4a67cb667955fe049653d158653feccc96f2d0d3
+  - Component:default/3873e6882c022fd6611f20e72897bdfe7e02ad64
+  - Component:default/024c5b5fe89f1af36dae4914a31784c298d5f803
+  - Component:default/f8f75ab96f88523d966bbd2d23d600f4cd318d20
+  - Component:default/125e79d0d0111dc895dcf925731c59ed3b98a339
+  - Component:default/204cbd7fd00018fc3303b0460d13df71ec4b4383
+  - Component:default/9863a807c01130f7485f70bf6e17be9da1f9d23c
+  - Component:default/22312055bb9f7b70ede82db259f9585809d4f1b2
+  - Component:default/afb2c33ac1673b38ad81b02eb56d740292b26876
+  - Component:default/2dddb3623337449752e00877a92cb30622ae1fc5
+  - Component:default/9e48273dd89556aae1af1a146874cfbfa76a2710
+  - Component:default/0edfd3a00c51b15de3d938a8d8a004c2a67201ad
+  - Component:default/0a4021c4826440fb57e76042272f4e4188f71573
+  - Component:default/c65a02e2c3a5017659f1c91daf970665d525e296
+  - Component:default/000c004bd1b1a5a6f5788e6f431e5c97ab53ec90
+  - Component:default/5ec95ca322f69255ee43fa6fd9f95581e85967aa
+  - Component:default/beaa205a06795c29939e2ff77afa4c273790cef5
+  - Component:default/bad76f2fea34f69429a891f264e39524d3836177
+  - Component:default/a5d226df76af5109c5959b33b40e2f330ccffd8c
+  - Component:default/46076f7d4afaa38fee0226152de67becd18464f9
+  - Component:default/bd087ce355bbdb93a530bcb12b34779867cbf6da
+  - Component:default/44901dec26326999e339e9c536a1488e967b5a76
+  - Component:default/a46a37f4ebf73266165f3c604216fda94171fb80
+  - Component:default/9c693fe630cb47cbd7a36bb34e5654808402198a
+  - Component:default/eeff0628c6be6dba1039b7119218530e608e3a10
+  - Component:default/bc2e3ff8971dcf7b7f077a7993ae2ee4e4f99443
+  - Component:default/60127e39c51693992846136805a29a57e91a7d3a
+  - Component:default/02f7dea37677f8bcb701bca3ad9b1621853cb45b
+  - Component:default/23d0d06963f94781e07ec9c7af490b526dfff42e
+  - Component:default/11a7a814ad635935422577f3c6fd370cf65297a8
+  - Component:default/968fcdcc40fc31d151c01ad148ff0b97b13c9648
+  - Component:default/ab4ea4a9e509b9c496c8e0d9c45e8ffeacecb612
+  - Component:default/dc400469dac4f487ad75aec1fa396d74fec94a9e
+  - Component:default/28cde52fb2fa4a9d7102aff696400c5fec1bad3e
+  - Component:default/e2289c1302e9b5051a768b2f11d17d0c77eeda1f
+  - Component:default/f80281a28201246987f5824e43349ed8655f0b9d
+  - Component:default/f2cfb19f67fd77aa71afcd2f74223788a706fa8f
+  - Component:default/b20ad9a39ee96acf738ab61a3e065dea4c158e34
+  - Component:default/76e99fcf4a5130002e8ba8888fc21e778ae17df7
+  - Component:default/7677889849e92accc14f8c73eb41c72146ed9696
+  - Component:default/12be24b8441f4998fb67709a0af53f20e3c9aa23
+  - Component:default/749b45435fcc44795e340931163813dd31298ecc
+  - Component:default/89a55ecc0e9011c031e42697ed5415ddee649c93
+  - Component:default/c3a92598c2bff2af5131f1b36903d1bac49ccc89
+  - Component:default/a0f3fadf0348d083be86f7126cb9700093647f39
+  - Component:default/a21f8392fbb2b978272c4f8b21d8a6e036ecdbbd
+  - Component:default/6aea7150c533f66689f5578d8dfc2614b34792c3
+  - Component:default/3eb246959cd4077f7406d9b0d65d779468c742bf
+  - Component:default/050e6106c1f602c75bb8611f64929b4703016ba9
+  - Component:default/877f413a30082d9c42384d319237f84956d0d4b1
+  - Component:default/c278af721dc34bffb6508f1500b83db6f4e1efa3
+  - Component:default/f10d5c12dda35bf8d3c21d6b23213a23c0a5120f
+  - Component:default/02ef0fe7ae80ebb25b8c8b52e2ac3bfadfb74a05
+  - Component:default/2bfa2c3f3fa6733eb3849dab039f54d548d476c8
+  - Component:default/2b8716bcb8e4d11fdb8618e4af811dc51bb6eca9
+  - Component:default/cedec07a7e823c5c2c91534c124c08e7d8821682
+  - Component:default/8cc20e6cfa81f4dcd79d23a224dc04796f190ad6
+  - Component:default/d17bff4da1eedb96f97f3ec16a6bd12c5636002a
+  - Component:default/b65d9fef42eec5d938c20bc11f3493aeab0d170f
+  - Component:default/e033c569c01d733e438e704e1ee95c6c399c6695
+  - Component:default/aa29e8e5f6dc8959a7a6dde0067bdb6fa6b30838
+  - Component:default/0537ac052eec1d21cee40515eddf475aa3df7c77
+  - Component:default/5bee7ab20c6e25ebe8a3fe9f00d23bcbc53aeac7
+  - Component:default/9e5f7fc3a7faf8d6b2a41f14259109f3d0a79b08
+  - Component:default/f061300b17ac624633a823a27bd863e74f2c48c2
+  - Component:default/7af7c41def8271dac05897d2a1af7a03cc1e9d66
+  - Component:default/2f826eacc4e7c8356e25aeb060a1f3e0a1544ef2
+  - Component:default/312b4891e2e2b6e028c38ead859b578f24c4afd1
+  - Component:default/5af3f8e4482edc048e3669f14ee8fdc8e025afcc
+  - Component:default/bf4fd1665682d7e4ca98f69ce0f45ed688272812
+  - Component:default/404e5409408e0cf7b2c300b018b563892531058e
+  - Component:default/65d052648269269467b20c18cb5b8fe3fd995098
+  - Component:default/28334d4d7c71fc5272573bbc95dfd968f12c82a3
+  - Component:default/fa8bfba41dea55bd3ff38e9adeeca39ce14ed8fb
+  - Component:default/a00eee579edacb32e22e0e95073c7a1ec14f4ad0
+  - Component:default/426a3cfeb29fc2885350cf8d826b9b2744fd1032
+  - Component:default/4caa42e3ab0f9acfef07ba20464b3e170ad19284
+  - Component:default/5e2ec9ee13d53f4035d473f071d59a4fe7de221f
+  - Component:default/11ff77fe208119a56605f0ca6d10413d53a10e4b
+  - Component:default/5cf3e5f92421a56ca1b08e40ae1d4fb64606560a
+  - Component:default/5e9b5dfb771ee3e2565a2eec5a75ee5eeeb41ea3
+  - Component:default/12121dee10657c43bb4b02ee8ed8125e88953442
+  - Component:default/854e841a3d5c6c069f1948cbbde21e9c678852ca
+  - Component:default/800dd9f141b8a4710f8164b23c151835a47a56d2
+  - Component:default/aeb27aff7e1f59595ddad5c168df6590804e6788
+  - Component:default/a5bbca3bcf240b830266b0f27a4da61101ae75e9
+  - Component:default/c9f428574a33d910bd6777e4bd35e24cf82b18ac
+  - Component:default/98664cbf4b50478649b53095b5ddc6ff439978b9
+  - Component:default/8c02a7a198f1f04f87d433177e1a89314776bddc
+  - Component:default/c500527766c732049cf602fa3bcae58f8e6c4efc
+  - Component:default/87a9a175551090b9da60f2081973fc11c3cba2aa
+  - Component:default/bf2551cb42c1d58927900a5d9248b6e2f565b42f
+  - Component:default/7daa80b2ac0fd83f11d1c04609642c1ae0a2bc33
+  - Component:default/46f89f84cbc0834c28057395e5ebf63f2e0337c5
+  - Component:default/f1d853c344292465807571fc33274aac4c7c7eaf
+  - Component:default/05bf1735753b5dffa72db2d38b715e18740b3f47
+  - Component:default/c54ed8022f5db78977a59efc75c10a05ee16f109
+  - Component:default/eba0e8a7035bd3fa86cd24bd5387425bfed617d4
+  - Component:default/e03e7e542e356d18f90440a4a5d6261e1972d346
+  - Component:default/f201386beb45b093937fc803ce53dd905b0bd971
+  - Component:default/d132e19c70d290160c507ff65061f74faa5a568a
+  - Component:default/8aca16a253beb3ea1c235ee105e49a9923d000b9
+  - Component:default/a35d8347890c829b7e9530c6f84e29db57690d3c
+  - Component:default/597310dcbcb53973389b1b9737597a7bb054449c
+  - Component:default/e6eaae2b3b3cf67c7bf13e48dc79fff348a00344
+  - Component:default/05dfbb2469a77dce42ea1452fd85d8f060f12701
+  - Component:default/212ed6b7133e8b16236afa7ede5e3170b55632da
+  - Component:default/53344371e58b2b00b8d146711821f13595cab6c4
+  - Component:default/7489214fe02ba6ba64c1250d4c14e3340bbd7f0b
+  - Component:default/6224ccbb7f264a56bfd14ea73a8db88ae96aafd6
+  - Component:default/1af346b2f1c50b749048b3093f2f5797ea9baa8d
+  - Component:default/e1d2a0c945b35720247c5da666751df1390354a1
+  - Component:default/9bfadf6d25b032bcb4717df194d42db3bc8f6881
+  - Component:default/05aa47bf5c76c26a7d277f9f9ec4a08100de1b6a
+  - Component:default/09b259288918c979b4d3f0529d85d2a6779ad32b
+  - Component:default/dfbcd9cd8d45bc84d4fa582f5cd0e0c4670bdc4f
+  - Component:default/5e8c50334b7e3e46e07da7487a30f49575b8e8ab
+  - Component:default/2035e5979be5cac41e64da612ea10461f7916026
+  - Component:default/297d9067ef70ddfd9c48ef0045480872a2856d2e
+  - Component:default/4aa6d8c42b83068273b97a37fd9e176cac67c176
+  - Component:default/2c0749e874e097b21010105def9ef764aa0392b6
+  - Component:default/c0fb2239153079e686b7b6bb35b4be65ffa25345
+  - Component:default/0f7d53f909b73ef56d65c8aa52836232738d9552
+  - Component:default/19e742349865f76734857900e11d2cdc51c66228
+  - Component:default/a4d6531c838310c9caa7ab618de18c9aa930a7c8
+  - Component:default/841c6e9211e7e907e33db5201eafbf9a47599a3e
+  - Component:default/4c14aee856814596af723f02a2aa4d35601e7e8e
+  - Component:default/9a665758631319f1c4b1ded550386a68f62cf623
+  - Component:default/d553d32172cb31613edf2e8544245fd20a7217c0
+  - Component:default/8d387917a9459995d44a4993e0f2e4bcce26e92d
+  - Component:default/cfc882cb6ba72f57499a8266288db311cb120392
+  - Component:default/d21fcae5f5ef6af55b90e970ce57483f2ccf77ce
+  - Component:default/83634ab4a1011c67ca3aa651aa94607ffec84e85
+  - Component:default/c0f7b811e86aee8a9ceb0e27dda19c71f272b77a
+  - Component:default/1e9229ec940eae00119924e8a311508d8d2061c6
+  - Component:default/4d9a0f0043a8e565367ac33fe06348b4be2e013c
+  - Component:default/753fae129437d0c3ec6183d9ac66b57623789549
+  - Component:default/3fb0cf6850c8aa1624e42c1d6372d5d747dcee42
+  - Component:default/d8730214077ebaad7216c490b4d2fcc4fda3ef7d
+  - Component:default/4a49c3bd15fe682f13b8bd190d546d993e43d858
+  - Component:default/9e56163af492aeecf37a8d5c592a51de18f94fb4
+  - Component:default/44483eaa61bc0f090b4e62ad0ea20fd14282e80e
+  - Component:default/231f48575315e2044ac1c3f7fa5b7ed358a9a4ed
+  - Component:default/ceb1c74dfb9eb8e2c11c4a650926b476f8d8bc73
+  - Component:default/7e1be8946894b6ca93a7c18953f5d76a259243cd
+  - Component:default/046a3c60971574e329ea9763f36ef612653bedc0
+  - Component:default/79c4ea4f916d9a1c2752f12a50285a12f1424e01
+  - Component:default/75e78ee676c28fba82021c6d32b20d3856780365
+  - Component:default/b4238f7c0c1125d47f399a19a6ebe22c089b181d
+  - Component:default/fbbfb8742d9395ca94149abf418db18049ae2446
+  - Component:default/30418f4656bdc80e61c81660c1300bcbc889162a
+  - Component:default/76ed0fce1b96002efbf859f603cac46ec1ba89af
+  - Component:default/35cf613cbe75120a5b3c64054de47da67497bd77
+  - Component:default/7a752fa6138aebeb189a5f945b84b971fbb73669
+  - Component:default/11e9860541688556295fe86051867497550c5901
+  - Component:default/4bd19e47a8eda92b5e2499b18b25856c59a01706
+  - Component:default/0c62de735423b2c4ad5fbfa349f64f249dc3d2ae
+  - Component:default/b50ebf7efe4f9e7f534e1425f0bd53bf1f293244
+  - Component:default/81f5edce266dc31a647442d5aa4f545f2abfa1db
+  - Component:default/804adb7fd8d92b48486e817d635a1d97fd99d62e
+  - Component:default/c3a5f34c21e76e37f3e3ce0e857f5f2e971de9a1
+  - Component:default/d65cb9457e350567a8606e5ff8f68666e1caa55e
+  - Component:default/bb0153d9ed0148f6531958d30969cc780c71b9e2
+  - Component:default/639f22d35c5f8366b935859ecfe2ed282a3912aa
+  - Component:default/4cbaa65d960c400c9b98f822ccc767f5a0e0bd31
+  - Component:default/45e28115d673f7e66f6a1da040936d38937f09f1
+  - Component:default/5d4993d28c24f96396dc6deb9595c045437183a6
+  - Component:default/cf560a73abab7bad60cda92d3ac4958aba712353
+  - Component:default/91c4113a7e8dfc7b7eebbc3d0cd5eecf0df170c6
+  - Component:default/8089de52a3caa9ab4aa744f50f4264ca5ff9becd
+  - Component:default/c60f1126e0c99535373a755f2a71082863cd0ae4
+  - Component:default/b6be0e3ec710848c729734ec71a55355ca2e50fa
+  - Component:default/69008417a9ca3897676992b312be3dc866b3df85
+  - Component:default/7b652f8d13bab8b5755d115a791efb5c22cfdd4c
+  - Component:default/9ee228ecf2ba76c0590e5ed87f920333d64fe15d
+  - Component:default/bd4817e3af1e8e1e175aa7270745d022da731f47
+  - Component:default/a5d9340911e7e6a61c6e70ed22e855b28d21ac77
+  - Component:default/454e724a454306b909f1db2b8994c8a197f11011
+  - Component:default/fd798c5dfd65c7bb38334f45c312f58d3073ea53
+  - Component:default/ba50f85d50670337ecf011b6276e2a6f3395b5c2
+  - Component:default/823eefb81f1613f6c8550d66b3174633f6ba7cc4
+  - Component:default/7bd65eb3ed83e0607ff6d945e35cb687dbf11a85
+  - Component:default/162194b450de2bd13074107e8200df6b055e6264
+  - Component:default/ca31dd891d416bc3f4e68ba5edcf1e9399e93b6d
+  - Component:default/2b640cb647696ea72f503252bee78419180f7428
+  - Component:default/da1e754de291eb2eaac2420349485cc494e0556d

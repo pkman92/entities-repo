@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 413fe41990396c058aa629b0cbea0b54644a3c3d
+  description: ""
+  annotations:
+    pkg/source: scratch
+    pkg/version: latest
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 04cf63c5defc50866814bfa99f87c67aab7355d5
+  description: ""
+  annotations:
+    pkg/base_image: scratch:latest
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/6efdead4-05f1-4dff-96c2-e38488ab3b19
+    pkg/image_tag: latest
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/vmware/govmomi/Dockerfile
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/413fe41990396c058aa629b0cbea0b54644a3c3d

@@ -1,0 +1,78 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 111c69b2e9995b1ed5d3ee985a3cc0c1a56d87a0
+  description: ""
+  annotations:
+    pkg/source: sigs.k8s.io/yaml
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e028427f92590f74d449f768ce57b2f6be23e4ae
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v0.0.0-20161208181325-20d25e280405
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a1378cd3acf651fc3b254e8287516a64af90279f
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v2
+    pkg/version: v2.2.8
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ccc37e6668ff86285ea01fe7cd60bf4781b975ae
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/633d54c7-fb55-4a8d-ab76-7997c663bfcd
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/sigs.k8s.io/yaml/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/111c69b2e9995b1ed5d3ee985a3cc0c1a56d87a0
+  - Component:default/a3fe0798cbdcc9ecdb16165fc52921491e64b4f7
+  - Component:default/e028427f92590f74d449f768ce57b2f6be23e4ae
+  - Component:default/a1378cd3acf651fc3b254e8287516a64af90279f

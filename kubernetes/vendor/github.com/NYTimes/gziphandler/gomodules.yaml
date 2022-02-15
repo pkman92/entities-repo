@@ -1,0 +1,93 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 199f1285aced680f3d643f540970c2c2a0944843
+  description: ""
+  annotations:
+    pkg/source: github.com/NYTimes/gziphandler
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  description: ""
+  annotations:
+    pkg/source: github.com/davecgh/go-spew
+    pkg/version: v1.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  description: ""
+  annotations:
+    pkg/source: github.com/pmezard/go-difflib
+    pkg/version: v1.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/objx
+    pkg/version: v0.1.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 11580f2a6af4647ddf2c40cf18578f145ad5f25f
+  description: ""
+  annotations:
+    pkg/source: github.com/stretchr/testify
+    pkg/version: v1.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c07d84d721ba6979a765c4c7f48bae26767cca29
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/246579a9-4124-4386-90ba-d10100135059
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/NYTimes/gziphandler/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/199f1285aced680f3d643f540970c2c2a0944843
+  - Component:default/8914cea3519e81b77c5ae737d7fde4503f0b0d56
+  - Component:default/cbda1b99c2528ac01d27623befa9e00cb4d6c5ca
+  - Component:default/a5e8d11460d7b416769adcbb25d7673ed6f0a3a4
+  - Component:default/11580f2a6af4647ddf2c40cf18578f145ad5f25f

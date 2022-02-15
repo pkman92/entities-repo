@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cd8c70f8649a5668763d2c8435f9f615260a274d
+  description: ""
+  annotations:
+    pkg/source: k8s.io/klog
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7c63466c35d40684e34520a77e76f35f32412f03
+  description: ""
+  annotations:
+    pkg/source: github.com/go-logr/logr
+    pkg/version: v1.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5e9e19c276e84245fd09979ec9afbe5c334ca473
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/70f4066a-22d3-47ce-956a-b34c8b5087b9
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/k8s.io/klog/v2/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/cd8c70f8649a5668763d2c8435f9f615260a274d
+  - Component:default/7c63466c35d40684e34520a77e76f35f32412f03

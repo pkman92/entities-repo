@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ae17b95edb8ac1cc944a3efaeed7140bff460edc
+  description: ""
+  annotations:
+    pkg/source: github.com/fsnotify/fsnotify
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5e02640869ad5558d8bedea15525a1bab9ffc74b
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sys
+    pkg/version: v0.0.0-20191005200804-aed5e4c7ecf9
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: df3a7e0c580425b0484743995e8277331c1c7688
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/23c35d5b-759c-4be7-adbb-dd2710909507
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/fsnotify/fsnotify/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/ae17b95edb8ac1cc944a3efaeed7140bff460edc
+  - Component:default/5e02640869ad5558d8bedea15525a1bab9ffc74b

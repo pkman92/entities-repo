@@ -1,0 +1,138 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cf0e641ad8935e31ebd133e68d3b185ad474efbe
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/oauth2
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 24c481343c720183aff9a159e9a747a76db341de
+  description: ""
+  annotations:
+    pkg/source: cloud.google.com/go
+    pkg/version: v0.34.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a4d56409f4932071b45be1773a09826748aaf99f
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20190108225652-1e06a53dbb7e
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: b8b62918bfb916828dc3e380be7f2e162fbd6309
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/sync
+    pkg/version: v0.0.0-20181221193216-37e7f081c4d4
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1302969d4b25109f688cc17b7f022022c19dc808
+  description: ""
+  annotations:
+    pkg/source: github.com/golang/protobuf
+    pkg/version: v1.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f3ae33ac2c42c984c8e0b9004100f68e0a9d166c
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/net
+    pkg/version: v0.0.0-20180724234803-3673e40ba225
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  description: ""
+  annotations:
+    pkg/source: golang.org/x/text
+    pkg/version: v0.3.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: f3571ce1fa98c2e5923a434add37c34167531660
+  description: ""
+  annotations:
+    pkg/source: google.golang.org/appengine
+    pkg/version: v1.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e0c55203ccc8fd6266014a9b56cee47466cd5a99
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/cbfdd146-f636-450e-910b-bdf5698efa0b
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/golang.org/x/oauth2/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":1,"high":2,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/cf0e641ad8935e31ebd133e68d3b185ad474efbe
+  - Component:default/24c481343c720183aff9a159e9a747a76db341de
+  - Component:default/a4d56409f4932071b45be1773a09826748aaf99f
+  - Component:default/b8b62918bfb916828dc3e380be7f2e162fbd6309
+  - Component:default/1302969d4b25109f688cc17b7f022022c19dc808
+  - Component:default/f3ae33ac2c42c984c8e0b9004100f68e0a9d166c
+  - Component:default/9736ea3e4b75c084ca9510ddeb757b37b5aba001
+  - Component:default/f3571ce1fa98c2e5923a434add37c34167531660

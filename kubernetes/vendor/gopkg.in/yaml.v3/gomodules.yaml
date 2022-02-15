@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ae183e26a61ab2e2c9ba0f2ffe5b31449851c1bd
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/yaml.v3
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e028427f92590f74d449f768ce57b2f6be23e4ae
+  description: ""
+  annotations:
+    pkg/source: gopkg.in/check.v1
+    pkg/version: v0.0.0-20161208181325-20d25e280405
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dc26af1e7156f3095934389552e422d62809948c
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/182998ea-38be-48cf-8049-fbff3cc2153b
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/gopkg.in/yaml.v3/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/ae183e26a61ab2e2c9ba0f2ffe5b31449851c1bd
+  - Component:default/e028427f92590f74d449f768ce57b2f6be23e4ae

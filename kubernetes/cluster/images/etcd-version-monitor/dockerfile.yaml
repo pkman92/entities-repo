@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 620ccd40234b78f4d4444d7a774e46072537cf9f
+  description: ""
+  annotations:
+    pkg/source: gcr.io/distroless/static
+    pkg/version: latest
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 9fea83e30632081634ad03d9b184d8f2858fd40f
+  description: ""
+  annotations:
+    pkg/base_image: gcr.io/distroless/static:latest
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/597c436b-110a-43e7-9203-7a7f6b9ee752
+    pkg/image_tag: latest
+    pkg/repo: pkman92/kubernetes
+    pkg/source: cluster/images/etcd-version-monitor/Dockerfile
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/620ccd40234b78f4d4444d7a774e46072537cf9f

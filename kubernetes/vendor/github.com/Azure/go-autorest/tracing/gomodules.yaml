@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e4e726bb86a3a4267df50963db9947ce3a153923
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest/tracing
+    pkg/version: 0.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eabf4479c7c9162074dab768826452f5ac1ba4ac
+  description: ""
+  annotations:
+    pkg/source: github.com/Azure/go-autorest
+    pkg/version: v14.2.0+incompatible
+spec:
+  type: library
+  lifecycle: experimental
+  system: gomodules
+  owner: gomodules
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 7608aee5a9229f56208aecb61482bbcdb4ccc3c6
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/c017dc0e-9704-4669-8061-a4d0f5df91c2
+    pkg/image_tag: 0.0.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: vendor/github.com/Azure/go-autorest/tracing/go.mod
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: gomodules
+  dependsOn:
+  - Component:default/e4e726bb86a3a4267df50963db9947ce3a153923
+  - Component:default/eabf4479c7c9162074dab768826452f5ac1ba4ac

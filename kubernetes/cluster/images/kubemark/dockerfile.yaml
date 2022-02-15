@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 874360abb9a63d12157d991bacc2c009badda48f
+  description: ""
+  annotations:
+    pkg/source: k8s.gcr.io/build-image/go-runner
+    pkg/version: v2.3.1-go1.17.2-bullseye.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: dockerfile
+  owner: dockerfile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 69a047a75255e1eb492d56e690582a8fe25f8137
+  description: ""
+  annotations:
+    pkg/base_image: k8s.gcr.io/build-image/go-runner:v2.3.1-go1.17.2-bullseye.0
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/906ead48-f3cb-441d-a762-6606de2fd4e0
+    pkg/image_tag: v2.3.1-go1.17.2-bullseye.0
+    pkg/repo: pkman92/kubernetes
+    pkg/source: cluster/images/kubemark/Dockerfile
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: dockerfile
+  dependsOn:
+  - Component:default/874360abb9a63d12157d991bacc2c009badda48f
