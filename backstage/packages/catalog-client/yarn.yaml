@@ -1,0 +1,138 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a448e1d80cb2de28c70600682abdc4781ddbc6c9
+  description: ""
+  annotations:
+    pkg/source: '@backstage/catalog-client'
+    pkg/version: 0.5.5
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 5431c72ad3f753c75229183055c6861b52a244c9
+  description: ""
+  annotations:
+    pkg/source: '@backstage/catalog-model'
+    pkg/version: ^0.9.10
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 59d5211bd145e7bd0ad06b39bc8a4feac1dae5e0
+  description: ""
+  annotations:
+    pkg/source: '@backstage/errors'
+    pkg/version: ^0.2.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eb9ec0d32553fd7e41b9721b27b6ebbf17c0081b
+  description: ""
+  annotations:
+    pkg/source: tr46
+    pkg/version: 0.0.3
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: c2716f46306f1387acb3317c6f6d3a980db8ac98
+  description: ""
+  annotations:
+    pkg/source: webidl-conversions
+    pkg/version: 3.0.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 222b17d28468cf4fc2c2dcf305a129c0be65f0cd
+  description: ""
+  annotations:
+    pkg/source: whatwg-url
+    pkg/version: 5.0.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cb38786f845c724406f632a5fa232107f429d878
+  description: ""
+  annotations:
+    pkg/source: node-fetch
+    pkg/version: 2.6.7
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 239a720df7660059cb0853be0a993e2e2fee19ef
+  description: ""
+  annotations:
+    pkg/source: cross-fetch
+    pkg/version: 3.1.5
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fd73928f93460cbe6d78c447ea66a89339bda91b
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/3fae4572-a4f6-4f32-9b30-67254762dfea
+    pkg/image_tag: 0.5.5
+    pkg/repo: pkman92/backstage
+    pkg/source: packages/catalog-client/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/a448e1d80cb2de28c70600682abdc4781ddbc6c9
+  - Component:default/5431c72ad3f753c75229183055c6861b52a244c9
+  - Component:default/59d5211bd145e7bd0ad06b39bc8a4feac1dae5e0
+  - Component:default/eb9ec0d32553fd7e41b9721b27b6ebbf17c0081b
+  - Component:default/c2716f46306f1387acb3317c6f6d3a980db8ac98
+  - Component:default/222b17d28468cf4fc2c2dcf305a129c0be65f0cd
+  - Component:default/cb38786f845c724406f632a5fa232107f429d878
+  - Component:default/239a720df7660059cb0853be0a993e2e2fee19ef

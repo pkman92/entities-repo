@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e934d87f909c463ef1d6e7685fe335ca37e75fb1
+  description: ""
+  annotations:
+    pkg/source: '@backstage/types'
+    pkg/version: 0.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 363d512fddcbbfa3f11efd0d0af3cb6099cf6a2c
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/961b81fc-97f5-43c4-8598-cb392b2a0665
+    pkg/image_tag: 0.1.1
+    pkg/repo: pkman92/backstage
+    pkg/source: packages/types/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/e934d87f909c463ef1d6e7685fe335ca37e75fb1

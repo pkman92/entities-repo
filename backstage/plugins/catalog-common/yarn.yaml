@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e3b473ad33538a60dbbb3b48082e957e4841aa69
+  description: ""
+  annotations:
+    pkg/source: '@backstage/plugin-catalog-common'
+    pkg/version: 0.1.1
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 67474de843a1da42f5d30377d40f0de52e14f57e
+  description: ""
+  annotations:
+    pkg/source: '@backstage/plugin-permission-common'
+    pkg/version: ^0.4.0
+spec:
+  type: library
+  lifecycle: experimental
+  system: yarn
+  owner: yarn
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcc657cbf419b1148fabbd8ab356ea39a5c9ce1a
+  description: ""
+  annotations:
+    pkg/base_image: ""
+    pkg/browse_url: https://app.snyk.io/org/pkman92/project/c7495dcd-6f95-4fcd-ba44-6b879b52a8fe
+    pkg/image_tag: 0.1.1
+    pkg/repo: pkman92/backstage
+    pkg/source: plugins/catalog-common/package.json
+    pkg/vulnerabilities: '{"low":0,"medium":0,"high":0,"critical":0}'
+spec:
+  type: service
+  lifecycle: experimental
+  system: domain-1
+  owner: yarn
+  dependsOn:
+  - Component:default/e3b473ad33538a60dbbb3b48082e957e4841aa69
+  - Component:default/67474de843a1da42f5d30377d40f0de52e14f57e
